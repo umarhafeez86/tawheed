@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Bitter Rose DEMO';
+    src: url(../fonts/BitterRoseDEMO-Regular.woff2);
+}
+/* @font-face {
+    font-family: "Century Gothic";
+    src: url(../fonts/CenturyGothic.woff2);
+} */
+
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('../fonts/CenturyGothic.eot');
+    src: url('../fonts/CenturyGothic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CenturyGothic.woff2') format('woff2'),
+        url('../fonts/CenturyGothic.woff') format('woff'),
+        url('../fonts/CenturyGothic.ttf') format('truetype'),
+        url('../fonts/CenturyGothic.svg#CenturyGothic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('../fonts/CenturyGothic-Bold.eot');
+    src: url('../fonts/CenturyGothic-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CenturyGothic-Bold.woff2') format('woff2'),
+        url('../fonts/CenturyGothic-Bold.woff') format('woff'),
+        url('../fonts/CenturyGothic-Bold.ttf') format('truetype'),
+        url('../fonts/CenturyGothic-Bold.svg#CenturyGothic-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+@font-face {
+    font-family: 'Cookie';
+    src: url('../fonts/Cookie-Regular.eot');
+    src: url('../fonts/Cookie-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Cookie-Regular.woff2') format('woff2'),
+        url('../fonts/Cookie-Regular.woff') format('woff'),
+        url('../fonts/Cookie-Regular.ttf') format('truetype'),
+        url('../fonts/Cookie-Regular.svg#Cookie-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

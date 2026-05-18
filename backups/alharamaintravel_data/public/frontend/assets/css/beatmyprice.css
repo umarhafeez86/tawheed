@@ -1,0 +1,342 @@
+.blog-content .linkmore {
+    color: var(--text-inverse, #fff);
+    font-family: "Century Gothic";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+.blog-content .linkmore:hover {
+    color: var(--text-inverse, #fff);
+}
+
+
+.makkah-p {
+    color: var(--text-default, #FFF);
+    font-family: "Century Gothic";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.custome-mergin-infobox {
+   width: 60%;
+}
+.Umrah-button {
+    color: var(--text-inverse, #081212);
+    font-family: "Century Gothic";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 100px;
+    background: #ECECEC;
+    border: #ECECEC;
+    text-decoration: none;
+}
+
+.hajj-button {
+    color: var(--text-inverse, #081212);
+    font-family: "Century Gothic";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 100px;
+    background: #FFF;
+    border: #FFF;
+    text-decoration: none;
+}
+
+.book-pakage {
+    color: var(--text-inverse, #081212);
+    font-family: "Century Gothic";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 100px;
+    background: #FFF;
+    border: #FFF;
+    text-decoration: none;
+}
+
+.find-flights-button:hover {
+    background-color: #111;
+}
+
+.best-deals-button {
+    display: flex;
+    padding: 14px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    color: #111;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0.2px;
+    border: #111;
+    background: #FFF;
+}
+
+.hajj-button:hover {
+    background-color: #111;
+    color: white;
+}
+.Umrah-button:hover {
+    background-color: #111;
+    color: white;
+}
+.book-pakage:hover {
+    background-color: #111;
+    color: white;
+}
+.buttons-background {
+    display: inline-flex;
+    justify-content: center;
+    height: 62px;
+    padding: 10px 8px 10px 10px;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #FFF;
+}
+
+
+.form-control {
+    width: 90%;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color: #333;
+    background-color: black;
+    border-radius: 10px;
+    border: 1px solid var(--border-default, rgba(255, 255, 255, 0.20));
+}
+
+.form-control:focus {
+    background-color: black;
+    color: #FFF;
+}
+
+.form-control::placeholder {
+    color: #999;
+    font-style: italic;
+}
+
+.leftpanel-heading {
+    margin-top: 180px;
+}
+
+.enquire-now {
+    display: flex;
+    /* width: 376px; */
+    width: 90%;
+    height: 50px;
+    padding: 20px 95px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 500px;
+    /* background: var(--background-primary, #F8D49E); */
+    box-shadow: 0px 0px 8.6px 0px rgba(5, 5, 5, 0.30);
+    color: var(--text-inverse, #081212);
+    font-family: "Century Gothic";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #fff;
+    background: #272727;
+    background: linear-gradient(to left, #272727 50%, #f8d49e 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+    border: none 0px;
+}
+.enquire-now:hover {
+  background-position: left;
+  color: #000;
+} 
+
+@media (max-width: 1700px) {
+    .custome-mergin-infobox {
+        width: 70%;
+    }
+}
+
+@media (max-width: 1600px) {
+    .custome-mergin-infobox {
+        width: 76%;
+    }
+}
+
+@media (max-width: 1440px) {
+    .makkah-p {
+        font-size: 50px;
+    }
+    .custome-mergin-infobox {
+        width: 86%;
+    }
+}
+
+@media (max-width: 1366px) {
+    .makkah-p {
+        font-size: 50px;
+    }
+    .custome-mergin-infobox {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1280px) {
+    .leftpanel-heading {
+        font-size: 32px;
+    }
+    .makkah-p {
+        font-size: 40px;
+    }
+    .custome-mergin-infobox {
+        width: 84%;
+    }
+    .Umrah-button {
+        font-size: 15px;
+        padding: 15px;
+    }
+    .hajj-button {
+        font-size: 15px;
+        padding: 15px;
+    }
+    .book-pakage {
+        font-size: 15px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 1152px) {
+    .custome-mergin-infobox {
+        width: 72%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .custome-mergin-infobox {
+        width: 78%;
+    }
+    .makkah-p {
+        font-size: 50px;
+    }
+    .Umrah-button {
+        font-size: 14px;
+        padding: 14px;
+    }
+    .hajj-button {
+        font-size: 14px;
+        padding: 14px;
+    }
+    .book-pakage {
+        font-size: 14px;
+        padding: 14px;
+    }
+}
+
+
+
+@media (max-width: 990px) {
+    .makkah-p {
+        font-size: 40px;
+    }
+    .custome-mergin-infobox {
+        width: 90%;
+    }
+    .Umrah-button {
+        font-size: 13px;
+        padding: 13px;
+    }
+    .hajj-button {
+        font-size: 13px;
+        padding: 13px;
+    }
+    .book-pakage {
+        font-size: 13px;
+        padding: 13px;
+    }
+}
+
+@media (max-width: 920px) {
+    .makkah-p {
+        font-size: 40px;
+    }
+    .custome-mergin-infobox {
+        width: 88%;
+    }
+    .Umrah-button {
+        font-size: 13px;
+        padding: 13px;
+    }
+    .hajj-button {
+        font-size: 13px;
+        padding: 13px;
+    }
+    .book-pakage {
+        font-size: 13px;
+        padding: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+    .makkah-p {
+        font-size: 40px;
+    }
+    .custome-mergin-infobox {
+        width: 94%;
+    }
+    .Umrah-button {
+        font-size: 12px;
+        padding: 12px;
+    }
+    .hajj-button {
+        font-size: 12px;
+        padding: 12px;
+    }
+    .book-pakage {
+        font-size: 12px;
+        padding: 12px;
+    }
+}
+
+@media (max-width: 400px) {
+    .enquire-now {
+        width:  100%;
+    }
+}
+
+
+@media (max-height: 900px) {
+    .leftpanel-heading {
+        margin-top: 80px;
+    }
+}

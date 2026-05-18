@@ -1,0 +1,76 @@
+/************** Left Panel CSS Start **************/
+.leftpanel-bg {
+    background: url(../images/packagedetails-bg.jpg) top center no-repeat;
+}
+
+.customer-review {
+    color: #FFF;
+    font-family: "Century Gothic";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+.happycustomers {
+    color: var(--text-primary, #FACE8D);
+    font-family: "Century Gothic";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+}
+.happycustomers span {
+    color: #FFF;
+    font-family: "Century Gothic";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/************** Left Panel CSS Emd **************/
+@media (max-width: 1920px) {
+  .leftpanel-bg {
+    background: url(../images/packagedetails-bg.jpg) top center no-repeat;
+  }
+}
+
+@media (min-width: 1921px) {
+  .leftpanel-bg {
+    background: url(../images/packagedetails-bg-xxl.jpg) top center no-repeat;
+  }
+}
+
+@media (max-width: 1680px) {
+    .customer-review {
+        font-size: 20px;
+    }
+    .happycustomers {
+        font-size: 14px;
+    }
+    .happycustomers span {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .customer-review {
+        font-size: 17px;
+    }
+    .happycustomers {
+        font-size: 12px;
+    }
+    .happycustomers span {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .customer-review {
+        font-size: 14px;
+    }
+    .happycustomers {
+        font-size: 11px;
+    }
+    .happycustomers span {
+        font-size: 9px;
+    }
+}

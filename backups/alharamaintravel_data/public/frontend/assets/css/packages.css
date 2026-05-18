@@ -1,0 +1,2594 @@
+body {
+  background: #050505;
+  overflow-x: hidden;
+}
+
+.form-row-msg {
+    color: #FACE8D;
+    font-family: "Century Gothic";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    float: left;
+    width: 100%;
+    display: block;
+}
+
+
+#enquiryform .form-row-msg {
+    color: #FACE8D;
+    font-family: "Century Gothic";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    float: left;
+    width: 100%;
+    display: block;
+    margin: -7px 0px 0px 0px;
+    padding: 0px;
+}
+
+.w-80 { width: 80%; }
+
+.toprighticonsbar {position:fixed;top:184px;right:15px;width:54px;z-index: 2;overflow: hidden; }
+.toprighticonsbar:hover { width: 230px; }
+.toprighticons img { float:left;margin:0px 0px 0px 0px;display:block; }
+
+.toprighticons {
+  font-size: 14px;
+	margin-bottom:10px;
+	background:#272727;
+	color:#fff;
+	font-family: "Century Gothic";
+  font-weight: bold;
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+	text-decoration:none;
+	padding:9px 6px;
+	width: 54px;
+	height: 54px;
+  overflow: hidden;
+  display: block;
+  float: right;
+	transition: width 0.5s ease; /* Transition for position change */
+}
+.toprighticons span { margin-left:10px;line-height:35px; }
+.toprighticons:hover{ width:230px; }
+
+.toprighticons2 {
+  font-size: 14px;
+	margin-bottom:10px;
+	background:#272727;
+	color:#fff;
+	font-family: "Century Gothic";
+  font-weight: bold;
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+	text-decoration:none;
+	padding:6px;
+	width: 54px;
+	height: 54px;
+  overflow: hidden;
+  display: block;
+  float: right;
+	transition: width 0.5s ease; /* Transition for position change */
+}
+.toprighticons2 span { margin-left:10px;line-height:45px; }
+.toprighticons2:hover{ width:230px; }
+
+
+.toprighticons3 {
+  font-size: 14px;
+	margin-bottom:10px;
+	background:#272727;
+	color:#fff;
+	font-family: "Century Gothic";
+  font-weight: bold;
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+	text-decoration:none;
+	padding:11px 6px 11px 6px;
+	width: 54px;
+	height: 54px;
+  overflow: hidden;
+  display: block;
+  float: right;
+	transition: width 0.5s ease; /* Transition for position change */
+}
+.toprighticons3 span { margin-left:10px;line-height:33px; }
+.toprighticons3:hover{ width:230px; }
+
+/************** Left Panel CSS Start **************/
+.leftpanel-bg {
+    background: url(../images/umrah-packages-bg.jpg) top center no-repeat;
+    padding: 0 48px;
+    height: 100vh;
+}
+.nextpagelogo {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    max-height: 99px;
+}
+.nextpagelogo {
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.nextpagelogo:hover {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.leftpanel-heading {
+  color: var(--text-primary, #face8d);
+  font-family: 'Cookie';
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.sign-up-for-umrah {
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(8.100000381469727px);
+  padding: 32px;
+}
+.form-row { width: 100%;margin-bottom:15px; }
+.custome-label {
+  color: var(--text-muted, rgba(255, 255, 255, 0.8));
+  font-family: "Century Gothic";
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  margin-bottom: 11px;
+}
+.input-filds {
+  display: inline-flex;
+  padding: 16px 24px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: inherit;
+  font-family: "Century Gothic";
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #fff;
+}
+.input-filds::placeholder {
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+.input-filds::-ms-input-placeholder { /* Edge 12 -18 */
+  color: #fff;
+}
+.submit-enquiry {
+  margin-top: 24px;
+  color: #fff;
+  font-family: "Century Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: flex;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 500px;
+  border: rgba(255, 255, 255, 0.3);
+  width: 100%;
+
+  background: rgba(255, 255, 255, 0.3);
+  background: linear-gradient(to left, #636363 50%, #FACE8D 50%) right;
+  background-size: 200%;
+  transition: .5s ease-out;
+}
+
+.submit-enquiry:hover {
+  color:  #000;
+  background-position: left;
+} 
+
+
+.beat-price-btn {
+  display: flex;
+  padding: 20px 95px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 500px;
+  box-shadow: 0px 0px 8.6px 0px rgba(5, 5, 5, 0.3);
+  color: var(--text-inverse, #081212);
+  font-family: "Century Gothic";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 100%;
+  margin-top: 44px;
+
+  background: #f8d49e;
+  background: linear-gradient(to left, #f8d49e 50%, #636363 50%) right;
+  background-size: 200%;
+  transition: .5s ease-out;
+}
+.beat-price-btn:hover {
+  background-position: left;
+  color: #fff;
+} 
+.Available {
+  color: #fff;
+  font-family: "Century Gothic";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0px;
+  padding: 0px;
+  line-height: normal;
+  display: block;
+}
+.phone-no-company {
+  color: #fff;
+  font-family: "Century Gothic";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0px 0px 15px 0px;
+  padding: 0px;
+  line-height: normal;
+  display: block;
+}
+.phone-no a:link,
+.phone-no a:visited,
+.phone-no a:active {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  text-decoration: none;
+
+  color: #fff;
+  transition: color .5s ease-out;
+}
+.phone-no a:hover {
+  color: #f8d49e;
+}
+
+.whatsappicon {
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.whatsappicon:hover {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+/************** Left Panel CSS END **************/
+
+
+.right-panel-scroll {
+  max-height:100vh;
+  overflow-y:auto;
+  color:#fff;
+
+}
+.right-panel-container{
+  width: 90%;
+  margin: 0px auto;
+}
+
+.custome-li-alignments {
+  font-family: "Century Gothic";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  color: rgba(255, 255, 255, 0.8);
+}
+.custome-li-alignments:hover {
+  color: #FACE8D;
+}
+
+.custome-li-alignments::after {
+  content: '';
+  display: block;
+  margin: 5px auto 0px auto;
+  height: 1px;
+  width: 0px;
+  background: #FACE8D;
+  transition: all 0.4s linear;
+}
+.custome-li-alignments:hover::after {
+  width: 100%;
+}
+
+.page_heading {
+  color: var(--text-default, #fff);
+  font-family: "Century Gothic";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+}
+ 
+.selected_filters_info {
+    color: var(--text-muted, rgba(255, 255, 255, 0.80));
+    font-family: "Century Gothic";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+.selected_info {
+    /* color: var(--text-muted, rgba(255, 255, 255, 0.80)); */
+    color: #f8d49e;
+    font-family: "Century Gothic";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+#iconcount {
+    background: #f8d49e;
+    color: #000;
+    padding: 2px;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    font-size: 11px;
+    height: 20px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 50%;
+    text-align: center;
+    width: 20px;
+    display: block;
+    line-height: 21px;
+}
+
+#iconcount2 {
+    background: #f8d49e !important;
+    color: #000 !important;
+    padding: 2px !important;
+    position: static !important;
+    float: right !important;
+    font-size: 11px;
+    height: 20px !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    border-radius: 50% !important;
+    text-align: center !important;
+    width: 20px !important;
+    display: block !important;
+    line-height: 21px !important;
+}
+
+#iconcount3 {
+    background: #f8d49e;
+    color: #000;
+    padding: 2px;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    font-size: 11px;
+    height: 20px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 50%;
+    text-align: center;
+    width: 20px;
+    display: block;
+    line-height: 21px;
+}
+
+#filterForm .main_links{
+  color: var(--text-inverse, #fff) !important;
+  font-family: "Century Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 500px;
+  display: flex;
+  padding: 16px 34px;
+  height: 60px;
+  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+  background: #272727;
+  background: linear-gradient(to left, #272727 50%, #FACE8D 50%);
+  background-position: right;
+  background-size: 210% 100%;
+  background-repeat: no-repeat;
+  transition: .5s ease-out;
+}
+#filterForm .main_links:hover{
+  color: var(--text-inverse, #081212) !important;
+  background: #f8d49e;
+}
+
+#filterForm .main_links_new{
+  background: #272727;
+  background: linear-gradient(to left, #272727 50%, #272727 50%);
+}
+
+#filterForm .main_links_new:hover{
+  background: #272727 !important;
+  color:  #fff !important;
+}
+
+
+#filterForm .month-btn img {
+  margin-top: 12px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#filterForm .month-btn img:hover {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+#filterForm .month-btn:focus,#filterForm .month-btn:active {
+   border: none 0px !important;
+}
+#filterForm .month-btn.show {
+   border: none 0px !important;
+}
+#filterForm .month-btn.show:focus,#filterForm .month-btn.show:active {
+   border: none 0px !important;
+}
+
+/* #filterForm .fade-slide {
+  opacity: 0;
+  transform: translateX(10px);
+  transition: opacity 500ms ease-out, transform 500ms ease-out;
+}
+
+#filterForm .fade-slide.show {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 500ms ease-in, transform 500ms ease-in;
+} */
+
+#filterForm .dropdown-divider {
+    height: 0.5px;
+    background: rgba(255, 255, 255, 0.80);
+    margin-inline: 1rem;
+}
+
+#filterForm .dropdown-menu {
+    border-radius: 30px;
+    background: rgba(39, 39, 39, 0.80);
+    backdrop-filter: blur(8.100000381469727px);
+    min-width: 250px;
+}
+
+#filterForm .dropdown-menu .dropdown-item {
+    color: #fff;
+}
+
+#filterForm .dropdown-menu .dropdown-item:hover {
+    background-color: transparent !important;
+    color: #FACE8D;
+    transition: 0.4s ease-in-out;
+    font-size: 20px;
+}
+
+#filterForm  .dropdown-item {
+    color: #FFF;
+    font-family: "Century Gothic";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+#filterForm .dropdown-item-days {
+    color: #FFF;
+    font-family: "Century Gothic";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    text-decoration: none;
+    cursor: default !important;
+}
+
+#filterForm .dropdown-header {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: "Century Gothic";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+#filterForm .dropdown-icon-change {
+    width: 24px;
+    height: 24px;
+    fill: #FACE8D;
+    cursor: pointer;
+}
+
+#filterForm .close-icon-change {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+#filterForm .dropdown-toggle::after {
+    display: none !important;
+}
+
+.overflow-x-auto {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    border-bottom: 2px solid black; /* Your border */
+}
+
+.overflow-x-auto::-webkit-scrollbar {
+    height: 8px;  /* Adjust scrollbar height */
+    background-color: black;  /* Matches border */
+}
+
+.overflow-x-auto::-webkit-scrollbar-thumb {
+    background-color: #555;  /* Scrollbar handle */
+    border-radius: 4px;
+}
+
+.overflow-x-auto::-webkit-scrollbar-thumb:hover {
+    background-color: #333;
+}
+
+.form-check-input:focus,.form-check-input:active {
+   outline: none !important;
+   box-shadow: none;
+}
+
+#filterForm .form-check-input {
+  margin-top: 13px;
+}
+
+#filterForm .form-check-input:checked {
+  background-color: #face8d;
+  border-color: #face8d;
+  outline: none !important;
+}
+
+.package-grid {
+  border: solid 1px #050505;
+  border-radius: 16px;
+  padding: 10px;
+  background: #050505;
+  background: linear-gradient(to left, #050505 50%, #2c2925 50%) right;
+  background-size: 210%;
+  transition: .5s ease-out;
+}
+.package-grid:hover {
+  border: solid 1px #FACE8D;
+  background: rgba(250, 206, 141, 0.06);
+}
+
+.img-thumb-area { text-align: left; }
+.img-round { border-radius: 10px; }
+.soldout_tag { 
+    display: flex;
+    width: 114px;
+    height: 45px;
+    padding: 4px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 0px 500px 500px 0px;
+    background: rgba(0, 0, 0, 0.60);
+    box-shadow: 0px 0px 8.6px 0px rgba(5, 5, 5, 0.30);
+    position: absolute;
+    left: 0px;
+    top: 25px;
+    color: #FFF;
+    font-family: "Century Gothic";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.package_cat {
+  color: #FACE8D;
+  font-family: "Century Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.package_name {
+  color: var(--text-default, #FFF);
+  font-family: "Century Gothic";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.package_stars {
+  height: 20px;
+  text-align: right;
+}
+
+.package_stars i {
+  color: #fff;
+  font-size: 14px;
+}
+
+.package_price{
+  color: #FACE8D;
+  font-family: "Century Gothic";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: right;
+}
+
+.package_short_info{
+  color: #FFF;
+  font-family: "Century Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 187.5% */
+}
+.package_short_info span{
+  opacity: 0.6;
+  color: #FFF;
+  font-family: "Century Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.package_short_icons{
+  width: 100%; float: left;
+}
+.visaicon{
+  background: url('../images/package-icon-sprite.png') 0 0 no-repeat;
+  width: 18px;
+  height: 22px;
+  display: block;
+} 
+.flighticon{
+  background: url('../images/package-icon-sprite.png') -20px 0 no-repeat;
+  width: 21px;
+  height: 22px;
+  display: block;
+} 
+.hotelicon{
+  background: url('../images/package-icon-sprite.png') -40px 0 no-repeat;
+  width: 21px;
+  height: 22px;
+  display: block;
+} 
+.busicon{
+  background: url('../images/package-icon-sprite.png') -62px 0 no-repeat;
+  width: 22px;
+  height: 22px;
+  display: block;
+} 
+.mealicon{
+  background: url('../images/package-icon-sprite.png') -84px 0 no-repeat;
+  width: 24px;
+  height: 22px;
+  display: block;
+} 
+
+.btn_save {
+  border-radius: 10px;
+  display: inline-flex;
+  height: 36px;
+  padding: 6px 12px;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+
+  color: #FACE8D;
+  font-family: "Century Gothic";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  text-decoration: none;
+
+  background: #272727;
+  min-height:  32px;
+  
+}
+.btn_save i {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.btn_save:hover {
+ color: #fff;
+} 
+
+
+.btn_compare {
+  color: #FFF;
+  font-family: "Century Gothic";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  text-decoration: none;
+
+  display: inline-flex;
+  height: 36px;
+  padding: 6px 12px;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+
+  border-radius: 10px;
+  background: #272727;
+}
+.btn_compare i {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.btn_compare:hover {
+ color: #6BAD00;
+} 
+
+
+.btn_details{
+  border-radius: 500px;
+  box-shadow: 0px 0px 8.6px 0px rgba(5, 5, 5, 0.30);
+  color: #FFF;
+  font-family: "Century Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 22px;
+  display: flex;
+  width: 132px;
+  padding: 8px 14px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  background: #272727;
+  background: linear-gradient(to left, #272727 50%, #f8d49e 50%) right;
+  background-size: 200%;
+  transition: .5s ease-out;
+}
+.btn_details:hover{
+  border-radius: 500px;
+  background: #FACE8D;
+  box-shadow: 0px 0px 8.6px 0px rgba(5, 5, 5, 0.30);
+  color: #050505; 
+  background-position: left;
+}
+
+.btn_showmore {
+  /* color: var(--text-muted, rgba(255, 255, 255, 0.80)); */
+  color: #000;
+  text-align: center;
+  font-family: "Century Gothic";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  padding: 8px 14px;
+  text-decoration: none;
+  width: 100%;
+  float: left;
+  border-radius:  10px;
+
+  background: #f8d49e;
+  background: linear-gradient(to left, #FACE8D 50%, #636363 50%) right;
+  background-size: 210%;
+  transition: .5s ease-out;
+
+  border: none 0px;
+}
+
+
+.btn_showmore:hover{
+  color: #fff;
+  background-position: left; 
+}
+
+.page_sub_heading {
+  color: var(--text-default, #FFF);
+  font-family: "Century Gothic";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.whychoose_content_box {
+  width: 100%;
+  height: 116px;
+  padding: 6px 14px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #272727;
+}
+
+.whychoose_content_box .heading {
+  color: #FACE8D;
+  text-align: center;
+  font-family: 'Cookie';
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.whychoose_content_box .infotext {
+  color: var(--text-muted, rgba(255, 255, 255, 0.80));
+  font-family: "Century Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+
+.page_info_box {
+  border-radius: 10px;
+  border: 1.5px solid rgba(255, 255, 255, 0.30);
+  padding: 40px;
+  height: 300px;
+  overflow-y: scroll;
+  word-wrap: break-word;
+}
+.page_info_box .page_content_heading{ 
+  color: var(--text-default, #FFF);
+  font-family: "Century Gothic";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+} 
+.page_info_box .page_content_text {
+  color: var(--text-muted, rgba(255, 255, 255, 0.80));
+  font-family: "Century Gothic";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.page_info_box p {
+  color: var(--text-muted, rgba(255, 255, 255, 0.80));
+  font-family: "Century Gothic";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.page_info_box a {
+  color: #FACE8D;
+  font-family: "Century Gothic";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  text-decoration: underline;
+}
+.page_info_box a:hover {
+  color: #fff;
+}
+
+.page_content_text .page_content_heading{ 
+  color: var(--text-default, #FFF);
+  font-family: "Century Gothic";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+} 
+.page_content_text .page_content_text {
+  color: var(--text-muted, rgba(255, 255, 255, 0.80));
+  font-family: "Century Gothic";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.page_content_text p {
+  color: var(--text-muted, rgba(255, 255, 255, 0.80));
+  font-family: "Century Gothic";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.page_content_text a {
+  color: #FACE8D;
+  font-family: "Century Gothic";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  text-decoration: underline;
+}
+.page_content_text a:hover {
+  color: #fff;
+}
+
+.page_sub_heading_text {
+  color: var(--text-muted, rgba(255, 255, 255, 0.80));
+  font-family: "Century Gothic";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.form-custon-inquiry{
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(8.100000381469727px);
+}
+
+.form-custon-inquiry .form-label {
+  color: var(--text-muted, rgba(255, 255, 255, 0.80));
+  font-family: "Century Gothic";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.form-custon-inquiry .form-control {
+  display: inline-flex;
+  height: 60px;
+  padding: 16px 24px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.40);
+  color: var(--text-default, #FFF);
+  font-family: "Century Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  background-color: transparent;
+}
+.form-custon-inquiry .form-control::placeholder {
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+.form-custon-inquiry .form-control::-ms-input-placeholder { /* Edge 12 -18 */
+  color: #fff;
+}
+.btn-form-custon-inquiry-submit{
+  display: flex;
+  width: 100%;
+  padding: 20px 95px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 500px;
+  background: rgba(0, 0, 0, 0.30);
+  box-shadow: 0px 0px 8.6px 0px rgba(5, 5, 5, 0.30);
+  
+  color: #FFF;
+  font-family: "Century Gothic";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  background: linear-gradient(to left, #181818 50%, #FACE8D 50%);
+  background-position: right;
+  background-size: 210% 100%;
+  background-repeat: no-repeat;
+  transition: .5s ease-out;
+}
+.btn-form-custon-inquiry-submit:hover {
+  color:  #000;
+  background-position: left;
+}
+
+
+.btm-btns-bar h4 {
+  color: var(--text-muted, rgba(255, 255, 255, 0.80));
+  font-family: "Century Gothic";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+  text-align: left;
+}
+.btn_bottoms{
+  border-radius: 10px;
+  display: inline-flex;
+  height: 54px;
+  padding: 6px 15px 6px 10px;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+
+  background: #272727;
+  background: linear-gradient(to left, #272727 50%, #FACE8D 50%) right;
+  background-size: 210%;
+  transition: .5s ease-out;
+
+  color: var(--text-muted, rgba(255, 255, 255, 0.80));
+  font-family: "Century Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 25.6px */
+  text-decoration: none;
+
+}
+
+.btn_bottoms:hover {
+  color:  #000;
+  background-position: left;
+}
+
+.certificates-bar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.footer-heading-box{
+  height: 84px;
+  float: left;
+  display: block;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.footer-logo { max-height: 55px;}
+
+
+.footer-copyrights{
+  color: #FFF;
+  font-family: "Century Gothic";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  opacity: 0.6;
+}
+
+.footer-heading {
+  color: var(--text-default, #FFF);
+  font-family: "Century Gothic";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.footer-links li a {
+  color: #FFF;
+  font-family: "Century Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  opacity: 0.6;
+  text-decoration: none;
+  margin-bottom: 16px;
+  width: 100%;
+  display: block;
+}
+
+.footer-links li a::after {
+  content: '';
+  display: block;
+  margin: 5px auto 0px auto;
+  height: 1px;
+  width: 0px;
+  background: #FACE8D;
+  transition: all 0.4s linear;
+}
+
+.footer-links li a:hover {
+  color: #fff !important;
+  opacity: 1.0;
+}
+
+
+.footer-links li a:hover::after {
+  width: 100%;
+}
+
+.footer-contact .phone_lnk {
+  color: #FACE8D;
+  font-family: "Century Gothic";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  text-decoration: none;
+}
+.footer-contact .phone_lnk::after {
+  content: '';
+  display: block;
+  margin: 1px auto 0px auto;
+  height: 1px;
+  width: 0px;
+  background: #FACE8D;
+  transition: all 0.4s linear;
+}
+.footer-contact .phone_lnk:hover {
+  color: #fff !important;
+  opacity: 1.0;
+}
+.footer-contact .phone_lnk:hover::after {
+  width: 100%;
+}
+
+.footer-contact .email_lnk {
+  color: var(--text-default, #FFF);
+  font-family: "Century Gothic";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  text-decoration: none;
+}
+.footer-contact .email_lnk::after {
+  content: '';
+  display: block;
+  margin: 1px auto 0px auto;
+  height: 1px;
+  width: 0px;
+  background: #FACE8D;
+  transition: all 0.4s linear;
+}
+.footer-contact .email_lnk:hover {
+  color: #fff !important;
+  opacity: 1.0;
+}
+.footer-contact .email_lnk:hover::after {
+  width: 100%;
+}
+.compare-info-area {
+  position: fixed;
+  bottom: 25px;
+  right: 0;
+}
+
+.compare-info-box {
+  border-radius: 200px;
+  background: #050505;
+  width: 80%;
+  margin: 0 auto;
+}
+.btn_compare_now {
+  display: flex;
+  padding: 20px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 500px;
+  /* background: #FFF; */
+  box-shadow: 0px 0px 8.6px 0px rgba(5, 5, 5, 0.30);
+
+  background: #FFF;
+  background: linear-gradient(to left, #fff 50%, #f8d49e 50%) right;
+  background-size: 200%;
+  transition: .5s ease-out;
+
+  color: var(--text-inverse, #081212);
+  font-family: "Century Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  text-decoration: none;
+}
+.btn_compare_now:hover {
+  background-position: left;
+  color: #000;
+} 
+
+.btn_compare_clear {
+  display: flex;
+  padding: 20px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 500px;
+  /* background: rgba(40, 162, 255, 0.25); */
+  box-shadow: 0px 0px 8.6px 0px rgba(5, 5, 5, 0.30);
+
+
+  background: #234968;
+  background: linear-gradient(to left, #234968 50%, #f8d49e 50%) right;
+  background-size: 200%;
+  transition: .5s ease-out;
+
+  color: #E3CCCC;
+  font-family: "Century Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  border: none 0px;
+  outline: none;
+}
+.btn_compare_clear:hover {
+  background-position: left;
+  color: #000;
+} 
+
+.btnfilter { 
+  background-color: transparent; 
+  border: none 0px;
+  margin-top: -7px;
+}
+
+.slide-toggle {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease, opacity 0.5s ease;
+  opacity: 0;
+}
+
+.slide-toggle.active {
+  max-height: 500px; /* adjust based on expected content height */
+  opacity: 1;
+}
+
+#filtersformob {
+  border-bottom: solid 3px #FACE8D;
+  padding-bottom: 5px;
+}
+
+.filtersformob_heading {  
+  color: var(--text-default, #FACE8D);
+  font-family: "Century Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+#filtersformob .dropdown-item-new {
+  line-height: 44px;
+}
+
+.termsnote {
+    color: #fff;
+    font-family: "Century Gothic";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.termsnote a {
+    color: #FACE8D;
+    font-family: "Century Gothic";
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal; 
+    text-decoration: none;
+}
+
+#notification {
+  display: none;
+  position: fixed;
+  top: 20px;
+  left: 0;
+  z-index: 9999;
+  width: 96%;
+}
+
+#notification_text {
+  position: relative;
+  width: 80%;
+  margin: 0px auto;
+  color: #272727;
+  padding: 16px 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+#notification_info {
+    color: #272727;
+    width: 100%;
+    display: block;
+
+    font-family: "Century Gothic";
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal; 
+    text-decoration: none;
+
+}
+
+#notification_info a {
+    color: #272727;
+    font-family: "Century Gothic";
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal; 
+    text-decoration: underline;
+}
+
+#notification .close-btn {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.desktopmenufixed { background-color: #000; justify-content: center; padding: 20px 0px;top: 0px; width: 60%; z-index: 9999; }
+
+.ministrylogo { max-width: 60%; }
+
+.footer-socials .icons {
+    width: 40px;
+    height: 40px;
+    border: solid 1px #fff;
+    text-align: center;
+    float: left;
+    display: block;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px 4px 5px;
+    margin-right: 12px;
+    color: #fff;
+    text-decoration: none;
+
+    background: #000;
+    background: linear-gradient(to left, #000 50%, #f8d49e 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.footer-socials .icons:hover {
+  background-position: left;
+  color: #000;
+} 
+
+@media (max-width: 1920px) {
+  .leftpanel-bg {
+      background: url(../images/umrah-packages-bg.jpg) top center no-repeat;
+      padding: 0 48px;
+      height: 100vh;
+  }
+}
+
+@media (min-width: 1921px) {
+  .leftpanel-bg {
+    background: url(../images/umrah-packages-bg-xxl.jpg) top center no-repeat;
+    padding: 0 48px;
+    height: 100vh;
+  }
+  .nextpagelogo {
+    margin-bottom: 75px;
+    margin-top: 36px;
+    height: 123px;
+  }
+  .leftpanel-heading{
+    margin-bottom: 28px;
+  }
+}
+
+@media (max-width: 1700px) {
+  .leftpanel-heading {
+    font-size: 40px;
+  }
+  .beat-price-btn {
+    font-size: 20px;
+    padding: 20px 65px;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 1680px) and (max-height: 1050px) {
+  .sign-up-for-umrah {
+    padding: 32px 32px;
+  }
+  .beat-price-btn {
+    font-size: 20px;
+    padding: 20px 65px;
+    margin-top: 29px;
+  }
+  .phone-no-company {
+    font-size: 35px;
+  }
+} 
+
+@media (max-width: 1600px) and (max-height: 1200px) {
+  .sign-up-for-umrah {
+    padding: 32px 32px;
+  }
+  .beat-price-btn {
+    font-size: 20px;
+    padding: 20px 95px;
+    margin-top: 74px;
+  }
+  .phone-no-company {
+    font-size: 35px;
+  }
+
+  #filterForm .main_links { 
+    height: 46px;
+    padding: 12px 24px;
+  }
+  #filterForm .month-btn img {
+    margin-top: 2px;
+  }
+  .package_short_info{
+    margin-bottom: 2px;
+  }
+
+
+} 
+@media (max-width: 1600px) and (max-height: 900px) {
+  .sign-up-for-umrah {
+    padding: 12px 32px;
+  }
+  .nextpagelogo {
+    margin-bottom: 0px;
+    margin-top: 10px;
+    max-height: 55px;
+  }
+  .form-row { margin-bottom:5px; }
+  .beat-price-btn {
+    font-size: 20px;
+    padding: 20px 65px;
+    margin-top: 8px;
+  }
+  .phone-no-company {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 1440px) and (max-height: 900px) {
+  .sign-up-for-umrah {
+    padding: 12px 32px;
+  }
+  .nextpagelogo {
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+  .form-row { margin-bottom:5px; }
+  .beat-price-btn {
+    font-size: 20px;
+    padding: 20px 65px;
+    margin-top: 8px;
+  }
+  .phone-no-company {
+    font-size: 30px;
+  }
+
+  #filterForm .main_links { 
+    height: 36px;
+    padding: 8px 20px;
+  }
+  #filterForm .month-btn img {
+    margin-top: 0px;
+  }
+
+}
+
+@media (max-width: 1400px) and (max-height: 1050px) {
+  .sign-up-for-umrah {
+    padding: 32px 32px;
+  }
+  .nextpagelogo {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    max-height: 80px;
+  }
+  .beat-price-btn {
+    font-size: 20px;
+    padding: 20px 95px;
+    margin-top: 58px;
+  }
+  .phone-no-company {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1366px) and (max-height: 768px) {
+  .leftpanel-heading {
+    font-size: 30px;
+  }
+  .nextpagelogo {
+    margin-bottom: 0px;
+    margin-top: 10px;
+    max-height: 70px;
+  }
+  .sign-up-for-umrah {
+    padding: 16px 20px;
+  }
+  .custome-label {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .input-filds {
+    padding: 5px 8px;
+    font-size: 0.7rem;
+  }
+  .submit-enquiry {
+    margin-top: 10px;
+  }
+  .beat-price-btn {
+    font-size: 20px;
+    padding: 15px 55px;
+    margin-top: 10px;
+  }
+
+  #filterForm .main_links {
+    height: 36px;
+    padding: 8px 15px;
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+
+  .package_cat {
+    font-size: 12px;
+  }
+
+  .package_name {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .package_stars i {
+    font-size: 10px;
+  }
+
+  .package_price{
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .package_short_info{
+    font-size: 12px;
+  }
+  .package_short_info span{
+    font-size: 12px;
+  }
+  
+  .submit-enquiry {
+      padding: 5px 10px;
+  }
+  
+  .beat-price-btn {
+      padding: 5px 10px;
+  }
+  
+
+}
+
+
+@media (max-width: 1300px) {
+  .leftpanel-heading {
+    font-size: 30px;
+  }
+  .beat-price-btn {
+    font-size: 20px;
+    padding: 20px 65px;
+  }
+}
+
+
+@media screen and (max-width: 1280px) and (max-height: 1024px) {
+  .leftpanel-bg {
+    height: 100vh !important;
+    padding: 0px 25px;
+  }  
+  .nextpagelogo {
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+  }
+  .beat-price-btn {
+    font-size: 20px;
+    margin-top: 44px;
+  }
+  .phone-no-company {
+    font-size: 25px;
+  }
+
+  .custome-li-alignments {
+    font-size: 15px;
+  }
+  #filterForm .main_links {
+    font-size: 12px;
+  }
+  .package_cat {
+    font-size: 12px;
+  }
+  .package_name {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .package_stars i {
+    font-size: 10px;
+  }
+  .package_price{
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .package_short_info{
+    font-size: 12px;
+  }
+  .package_short_info span{
+    font-size: 12px;
+  }
+
+  .page_sub_heading {
+    font-size: 30px;
+  }
+  .page_sub_heading_text {
+    font-size: 14px;
+  }
+  .page_info_box .page_content_heading {
+    font-size: 24px;
+  }
+  .page_info_box .page_content_text {
+    font-size: 14px;
+  }
+  .page_info_box p {
+  font-size: 14px;
+  }
+  .page_info_box a {
+  font-size: 14px;
+  }
+
+  .page_info_box ul {
+      margin: 0px;
+      padding: 0px;
+      list-style: none;
+      width: 100%;
+      float: left;
+  }
+
+  .page_info_box ul li {
+      margin: 0px;
+      padding: 0px;
+      list-style: none;
+      width: 100%;
+      float: left;
+  }
+
+  .page_info_box ol {
+      margin: 0px;
+      padding: 0px;
+      list-style: none;
+      width: 100%;
+      float: left;
+  }
+
+  .page_info_box ol li {
+      margin: 0px;
+      padding: 0px;
+      list-style: none;
+      width: 100%;
+      float: left;
+  }
+
+  .btm-btns-bar h4 {
+    font-size: 24px;
+  }
+  .soldout_tag { 
+    font-size: 10px;
+    top: 5px;
+    width: 74px;
+    height: 30px;
+  }
+  #filterForm .filtermob {
+    padding: 0px !important;
+  }
+
+}
+
+
+@media screen and (max-width: 1280px) and (max-height: 960px) {
+  .leftpanel-bg {
+    height: 100vh !important;
+  }  
+  .nextpagelogo {
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+  .beat-price-btn {
+    font-size: 20px;
+    margin-top: 8px;
+  }
+  .phone-no-company {
+    font-size: 25px;
+  }
+  .soldout_tag { 
+    font-size: 10px;
+    top: 5px;
+    width: 74px;
+    height: 30px;
+  }
+  #filterForm .filtermob {
+    padding: 0px !important;
+  }
+}
+
+@media screen and (max-width: 1280px) and (max-height: 800px) {
+  .leftpanel-bg {
+    height: 100vh !important;
+  }  
+  .soldout_tag { 
+    font-size: 10px;
+    top: 5px;
+    width: 74px;
+    height: 30px;
+  }
+  #filterForm .filtermob {
+    padding: 0px !important;
+  }
+}  
+
+
+@media screen and (max-width: 1280px) and (max-height: 768px) {
+  .leftpanel-bg {
+    height: 100vh !important;
+  }  
+  .selected_filters_info { 
+    font-size: 16px;
+  }
+
+  .beat-price-btn {
+    padding: 10px 50px;
+  }
+  .selected_info {
+    font-size: 16px;
+  }
+  .soldout_tag { 
+    font-size: 10px;
+    top: 5px;
+    width: 74px;
+    height: 30px;
+  }
+  #filterForm .filtermob {
+    padding: 0px !important;
+  }
+}
+
+@media screen and  (max-width: 1280px) and (max-height: 600px) {
+  .leftpanel-bg {
+    height: 100vh !important;
+  } 
+  .nextpagelogo {
+    max-height: 40px; 
+  }
+  .leftpanel-heading {
+    font-size: 15px;
+  }
+  .sign-up-for-umrah {
+    padding: 8px 20px;
+  }
+  .input-filds {
+    max-height: 40px;
+  }
+  .custome-label {
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+  .submit-enquiry{
+    font-size: 12px;
+  }
+  .beat-price-btn {
+    font-size: 12px;
+  }
+  .Available {
+    font-size: 12px;
+  }
+  .phone-no-company {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .whatsappicon {
+    max-height: 50px;
+  }
+  .soldout_tag { 
+    font-size: 10px;
+    top: 5px;
+    width: 74px;
+    height: 30px;
+  }
+  #filterForm .filtermob {
+    padding: 0px !important;
+  }
+}
+
+@media screen and (max-width: 1280px) and (max-height: 720px) {
+  .leftpanel-bg {
+    height: 100vh !important;
+  } 
+  .nextpagelogo {
+    max-height: 58px;
+  } 
+  .submit-enquiry {
+    padding: 5px 16px;
+  }
+  .beat-price-btn {
+    padding: 5px 45px;
+  }
+  .soldout_tag { 
+    font-size: 10px;
+    top: 5px;
+    width: 74px;
+    height: 30px;
+  }
+  #filterForm .filtermob {
+    padding: 0px !important;
+  }
+}
+
+@media screen and  (max-width: 1280px) and (max-height: 600px) {
+  .leftpanel-bg {
+    height: 100vh !important;
+  } 
+  .nextpagelogo {
+    max-height: 40px; 
+  }
+  .leftpanel-heading {
+    font-size: 15px;
+  }
+  .sign-up-for-umrah {
+    padding: 8px 20px;
+  }
+  .input-filds {
+    max-height: 40px;
+  }
+  .custome-label {
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+  .submit-enquiry{
+    font-size: 12px;
+  }
+  .beat-price-btn {
+    font-size: 12px;
+  }
+  .Available {
+    font-size: 12px;
+  }
+  .phone-no-company {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .whatsappicon {
+    max-height: 50px;
+  }
+  .soldout_tag { 
+    font-size: 10px;
+    top: 5px;
+    width: 74px;
+    height: 30px;
+  }
+  #filterForm .filtermob {
+    padding: 0px !important;
+  }
+}
+
+
+@media (max-width: 1180px) {
+  .page_heading {
+    font-size: 30px;
+  }
+  #filterForm .main_links {
+    font-size: 12px;
+    padding: 5px 6px;
+    height: 28px;
+  }
+
+  
+  .package_cat {
+    font-size: 10px;
+  }
+  .package_name {
+    font-size: 14px;
+  }
+  .package_stars i {
+    font-size: 10px;
+  }
+  .package_price{
+    font-size: 14px;
+  }
+  .package_short_info{
+    font-size: 12px;
+  }
+  .package_short_info span{
+    font-size: 12px;
+  }
+  .btn_details {
+    width: 96px;
+    padding: 8px 14px;
+    margin-right: 0px;
+    font-size: 12px;
+  }
+  .btn_save {
+    height: auto;
+  }
+  .btn_save i {
+    font-size: 12px;
+  }
+  .btn_compare {
+    height: auto;
+  }
+  .btn_compare i {
+    font-size: 12px;
+  }
+  .whatsappicon {
+    max-height: 50px;
+  }
+
+  .page_sub_heading {
+    font-size: 20px;
+  }
+  .page_sub_heading_text {
+    font-size: 12px;
+  }
+  .page_info_box .page_content_heading {
+    font-size: 20px;
+  }
+  .page_info_box .page_content_text {
+    font-size: 12px;
+  }
+  .page_info_box p {
+  font-size: 12px;
+  }
+  .page_info_box a {
+  font-size: 12px;
+  }
+
+
+  .btm-btns-bar h4 {
+    font-size: 18px;
+  }
+  .btn_bottoms {
+    height: 34px;
+    padding: 6px 10px 6px 5px;
+    font-size: 12px;
+  }
+  .btn_bottoms img {
+    max-height: 20px;
+  }
+
+  .certificates-bar img { max-width: 80% !important; }
+  .soldout_tag { 
+    font-size: 10px;
+    top: 5px;
+    width: 74px;
+    height: 30px;
+  }
+
+  #filterForm .filtermob {
+    padding: 0px !important;
+  }
+
+  .whychoose_content_box .infotext {
+    font-size: 30px;
+  }
+
+  .whychoose_content_box .infotext {
+    font-size: 13px;
+  }
+  
+}
+
+
+@media (max-width: 1152px) {
+  .leftpanel-bg {
+    height: 100vh !important;
+    padding: 0px 25px;
+  } 
+  .nextpagelogo {
+    max-height: 70px;
+    margin-bottom: 30px;
+  }
+  .custome-label {
+    font-size: 14px !important;
+  }
+  .submit-enquiry {
+    margin-top: 10px;
+    padding: 16px 24px;
+  }
+  .beat-price-btn {
+    font-size: 20px;
+    padding: 20px 65px;
+    margin-top: 30px;
+  }
+  .custome-li-alignments {
+    font-size: 13px;
+  }
+  .page_heading {
+    font-size: 25px;
+  }
+  #filterForm .main_links {
+    font-size: 12px;
+    padding: 5px 6px;
+    height: 28px;
+  }
+  #filterForm .filtermob {
+    padding: 0px;
+  }
+
+  .package_cat {
+    font-size: 10px;
+  }
+  .package_name {
+    font-size: 14px;
+  }
+  .package_stars i {
+    font-size: 10px;
+  }
+  .package_price{
+    font-size: 14px;
+  }
+  .package_short_info{
+    font-size: 12px;
+  }
+  .package_short_info span{
+    font-size: 12px;
+  }
+  .btn_details {
+    width: 96px;
+    padding: 8px 14px;
+    margin-right: 0px;
+    font-size: 12px;
+  }
+  .btn_save {
+    height: auto;
+  }
+  .btn_save i {
+    font-size: 12px;
+  }
+  .btn_compare {
+    height: auto;
+  }
+  .btn_compare i {
+    font-size: 12px;
+  }  
+  .whatsappicon {
+    max-height: 50px;
+  }
+
+  .page_sub_heading {
+    font-size: 25px;
+  }
+  .page_sub_heading_text {
+    font-size: 12px;
+  }
+  .page_info_box .page_content_heading {
+    font-size: 20px;
+  }
+  .page_info_box .page_content_text {
+    font-size: 12px;
+  }
+  .page_info_box p {
+  font-size: 12px;
+  }
+  .page_info_box a {
+  font-size: 12px;
+  }
+
+
+  .btm-btns-bar h4 {
+    font-size: 18px;
+  }
+
+  .btn_bottoms {
+    height: 34px;
+    padding: 6px 10px 6px 5px;
+    font-size: 12px;
+  }
+  .btn_bottoms img {
+    max-height: 20px;
+  }
+
+  .certificates-bar img { max-width: 80% !important; }
+  .soldout_tag { 
+    font-size: 10px;
+    top: 5px;
+    width: 74px;
+    height: 30px;
+  }
+
+  #filterForm .filtermob {
+    padding: 0px !important;
+  }
+
+  .btn-form-custon-inquiry-submit {
+    padding: 10px 65px;
+    font-size: 16px;
+  }
+  
+}
+
+
+
+@media (max-width: 1024px) {
+  .nextpagelogo {
+    max-height: 60px;
+    margin-bottom: 20px;
+  }
+  .custome-label {
+    font-size: 12px;
+  }
+  .submit-enquiry {
+    margin-top: 10px;
+    padding: 8px 16px;
+  }
+  .beat-price-btn {
+    font-size: 15px;
+    padding: 20px 65px;
+    margin-top: 8px;
+  }
+  .phone-no-company {
+    font-size: 25px;
+  }
+  .custome-li-alignments {
+    font-size: 11px;
+  }
+  .whychoose_content_box .heading {
+    font-size: 32px;
+  }
+  .whychoose_content_box .infotext {
+    font-size: 12px;
+  } 
+  #filterForm .main_links {
+    font-size: 10px;
+    padding: 5px 6px;
+    height: 28px;
+  }
+  #filterForm .filtermob  { padding: 0px !important; }
+  #filterForm .filtermob img { margin-top: 0px !important; }
+  .footer-contact .phone_lnk {
+    font-size: 14px;
+  } 
+  .footer-contact .email_lnk {
+    font-size: 14px;
+  }  
+}
+
+
+@media (max-width: 990px) {
+  .savetext { display: none !important; }
+  .leftpanel-bg {
+      padding: 0 20px;
+  }   
+  .leftpanel-heading {
+    font-size: 20px;
+  }
+  .sign-up-for-umrah{
+    width: 100%;
+    margin: 0px !important;
+  }
+  .beat-price-btn {
+    font-size: 20px;
+    margin-top: 8px;
+    padding: 20px 50px;
+  }
+  .phone-no-company {
+    font-size: 25px;
+  }
+
+  .page_heading {
+    font-size: 22px;
+  }
+  .selected_filters_info { 
+    font-size: 14px;
+  }
+  .selected_info {
+    font-size: 14px;
+  }
+
+  #filterForm .main_links { margin-bottom: 5px; }
+  #filterForm .filtermob  { padding: 0px !important; }
+  #filterForm .filtermob img { margin-top: 0px !important; }
+  .package_name  { font-size: 12px;line-height:normal; }
+  .package_price { font-size: 12px;line-height:normal; }
+  .package_short_info { line-height:normal; }
+  .package_short_info span { line-height:normal; }
+  .page_sub_heading { font-size: 20px; }
+  .page_sub_heading_text { font-size: 10px; }
+  .page_info_box { padding: 20px; }
+  .btm-btns-bar h4 { font-size: 14px; }
+  .footer-contact .phone_lnk {
+    font-size: 12px;
+  } 
+  .footer-contact .email_lnk {
+    font-size: 12px;
+  }
+
+
+}
+
+@media (max-width: 820px) {
+  .leftpanel-heading {
+    font-size: 20px;
+  }
+  .sign-up-for-umrah{
+    width: 100%;
+    margin: 0px !important;
+  }
+  .beat-price-btn {
+    font-size: 20px;
+    margin-top: 8px;
+    padding: 20px 30px;
+  }
+  .phone-no-company {
+    font-size: 17px;
+  }
+  .input-filds {
+    font-size: 13px;
+  } 
+
+
+  .page_heading {
+    font-size: 20px;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+
+  .leftpanel-heading {
+    font-size: 18px;
+  }
+  .sign-up-for-umrah{
+    width: 100%;
+    margin: 0px !important;
+  }
+  .submit-enquiry {
+    padding: 8px 16px;
+  }
+  .beat-price-btn {
+    font-size: 20px;
+    margin-top: 8px;
+    padding: 20px 30px;
+  }
+  .phone-no-company {
+    font-size: 17px;
+  }
+  .input-filds {
+    font-size: 13px;
+  } 
+
+
+  #filterForm .main_links{
+    display: flex;
+    height: 30px;
+    padding: 8px 20px !important;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size:  12px;
+  }
+
+  #filterForm .filtermob {
+    padding: 0px;
+  }
+
+  #filterForm .filtermob img{
+    margin-top: 0px;
+    float: right;
+  }
+
+
+  .package_cat{
+    font-size: 10px;
+  }
+  .package_name {
+    font-size: 12px;
+  }
+  .package_price {
+    font-size: 12px;
+  }
+  .package_short_info {
+    font-size: 12px;
+  }
+  .package_short_info span {
+    font-size: 12px;
+  }
+  .btn_details { 
+    margin-right: 0px;
+  }
+  .page_sub_heading {
+    font-size: 18px;
+  }
+  .page_sub_heading_text{
+    font-size: 11px;
+  }
+  .whychoose_content_box {
+    width: 100%;
+    max-width: 100%;
+  }
+  .page_info_box .page_content_heading {
+    font-size: 14px;
+  }
+  .page_info_box .page_content_text {
+    font-size: 13px;
+  }
+  .page_info_box p {
+  font-size: 13px;
+  }
+  .page_info_box a {
+  font-size: 13px;
+  }
+
+
+
+  .btn_showmore {
+    font-size: 14px;
+  }
+  .form-custon-inquiry{
+    border-radius: 16px;
+    padding: 24px !important;
+  }
+  .certificates-bar img {
+    max-width: 80%;
+  }
+
+  .btm-btns-bar h4 {
+    font-size: 11px;
+  }
+
+  .btn_bottoms {
+    font-size: 11px;
+  }
+
+  .btn_bottoms {
+    font-size: 11px;
+  }
+  
+  .footer-heading-box{
+    height: 68px;
+  }
+   
+  .footer-copyrights  {
+    font-size: 12px;
+  }
+  .footer-links li a {
+    margin-bottom: 5px;
+  }
+
+  .footer-contact .phone_lnk {
+    font-size: 12px;
+    line-height: 26px;
+  } 
+
+  .footer-contact .email_lnk {
+    font-size: 12px;
+    line-height: 26px;
+  }
+
+} 
+
+@media (max-width: 767px) {
+  .right-panel-container { padding-top: 257px; }
+  .img-thumb-area { text-align: center; max-height: 126px; overflow: hidden; }
+  .img-thumb-area img { width: 100%;margin-top:-30%; }
+  .soldout_tag { font-size: 10px; }
+
+  .btn_compare_now { font-size: 12px; padding: 4px 0px; }
+  .btn_compare_clear { font-size: 12px; padding: 4px 0px; }
+
+  .package_cat{
+  font-size: 10px;
+  }
+  .package_name {
+  font-size: 14px;
+  }
+  .package_price {
+  font-size: 16px;
+  }
+  .package_short_info {
+  font-size: 12px;
+  }
+  .package_short_info span {
+  font-size: 12px;
+  }
+  .btn_details { 
+  margin-right: 0px;
+  }
+  .page_sub_heading {
+  font-size: 20px;
+  }
+  .page_sub_heading_text{
+  font-size: 12px;
+  }
+  .whychoose_content_box {
+  width: 100%;
+  max-width: 100%;
+  }
+  .page_info_box .page_content_heading {
+  font-size: 16px;
+  }
+  .page_info_box .page_content_text {
+  font-size: 15px;
+  }
+  .page_info_box p {
+  font-size: 15px;
+  }
+  .page_info_box a {
+  font-size: 15px;
+  }
+
+
+  .btn_showmore {
+  font-size: 14px;
+  }
+  .form-custon-inquiry{
+  border-radius: 16px;
+  padding: 24px !important;
+  }
+  .certificates-bar img {
+  max-width: 80%;
+  }
+
+  .footer-heading-box{
+  height: 58px;
+  }
+
+  .footer-links li a {
+  margin-bottom: 5px;
+  }
+
+  .footer-contact .phone_lnk {
+  font-size: 12px;
+  line-height: 26px;
+  } 
+
+  .footer-contact .email_lnk {
+  font-size: 12px;
+  line-height: 26px;
+  }
+}
+
+@media (max-width: 560px) {
+  .selected_filters_info {
+    font-size: 14px;
+  }
+  .selected_info {
+    font-size: 12px;
+  }
+
+  .mob_buttons{
+  border-radius: 5px;
+  display: inline-flex;
+  height: 54px;
+  padding: 3px 10px 3px 10px;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+
+  background: #272727;
+  background: linear-gradient(to left, #272727 50%, #FACE8D 50%) right;
+  background-size: 210%;
+  transition: .5s ease-out;
+
+  color: var(--text-muted, rgba(255, 255, 255, 0.80));
+  font-family: "Century Gothic";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 25.6px */
+  text-decoration: none;
+
+  }
+
+} 
+
+
+@media (max-width: 428px) {
+  .selected_filters_info {
+    font-size: 12px;
+  }
+  .selected_info {
+    font-size: 12px;
+  }
+
+  .mob_buttons {
+    font-size: 13px;
+    height: 38px;
+    gap: 8px;
+  }
+
+}
+
+@media (max-width: 400px) {
+   .mob_buttons {
+    font-size: 12px;
+    height: 38px;
+    gap: 5px;
+   }
+}
+
+@media (max-width: 350px) {
+   .mob_buttons {
+    font-size: 12px;
+    height: 38px;
+    gap: 5px;
+   }
+}
+
+@media (max-width: 250px) {
+   .mob_buttons {
+    font-size: 11px;
+    height: 38px;
+    gap: 5px;
+   }
+}
+
+
+
+@media (max-height: 900px) {
+  /* .leftpanel-bg {
+      height: auto !important;
+  } */
+}

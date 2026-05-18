@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Details Page</title>
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" /> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="assets/css/index.css">
+
+
+</head>
+
+<body>
+    <div class="bg-[#005B68]">
+        <div class="overflow-hidden"></div>
+        <div class="container mx-auto px-4 sm:px-6 2xl:px-20 p-1">
+            <div class="m-5 sm:m-6 md:m-8 lg:m-10 flex justify-between items-center">
+                <img src="assets/images/nav-logo.png" class="h-10 xxl:h-14 max-w-full" alt="">
+
+                <div class="d-block">
+                    <ul class="flex justify-between justify-center  lg:gap-12 nav-link text-black">
+                        <li>Home</li>
+
+                        <li class="relative group">
+                            <a href="#" id="dropdownDefaultButton" data-dropdown-toggle="dropdown"
+                                class="inline-flex items-center ">
+                                Umrah Packages
+                                <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                    fill="none" viewBox="0 0 10 6">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="m1 1 4 4 4-4" />
+                                </svg>
+                            </a>
+
+
+                            <!-- Dropdown menu inside the same li -->
+                            <div id="dropdown"
+                                class="z-10 hidden absolute top-full mt-2 bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700">
+                                <ul class="py-2 text-gray-800 " aria-labelledby="dropdownDefaultButton">
+                                    <li>
+                                        <a href="#"
+                                            class="block px-4 py-2 text-gray-800 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            class="block px-4 py-2 text-gray-800 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            class="block px-4 py-2 text-gray-800 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            class="block px-4 py-2 text-gray-800 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sign
+                                            out</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+
+                        <li>Hajj 2026</li>
+                        <li>Blogs</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+
+                <div class="d-block">
+                    <a href="#" class="book-btn"><span>Book Now</span></a>
+                </div>
+
+                <div class="d-none">
+                    <img src="assets/images/menu.svg" alt="menu" class="cursor-pointer"
+                        data-drawer-target="drawer-navigation" data-drawer-show="drawer-navigation"
+                        aria-controls="drawer-navigation" />
+
+
+                    <!-- drawer component -->
+                    <div id="drawer-navigation"
+                        class="fixed top-0 left-0 z-40 w-64 h-screen p-4 overflow-y-auto transition-transform -translate-x-full bg-white dark:bg-gray-800"
+                        tabindex="-1" aria-labelledby="drawer-navigation-label">
+                        <h5 id="drawer-navigation-label"
+                            class="text-base font-semibold text-gray-500 uppercase dark:text-gray-400">
+                            Menu</h5>
+                        <button type="button" data-drawer-hide="drawer-navigation" aria-controls="drawer-navigation"
+                            class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 absolute top-2.5 end-2.5 inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white">
+                            <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="sr-only">Close menu</span>
+                        </button>
+                        <div class="py-4 overflow-y-auto">
+                            <ul class="space-y-2 font-medium">
+                                <li>
+                                    <a href="#"
+                                        class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                                        <svg class="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                                            aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                            viewBox="0 0 22 21">
+                                            <path
+                                                d="M16.975 11H10V4.025a1 1 0 0 0-1.066-.998 8.5 8.5 0 1 0 9.039 9.039.999.999 0 0 0-1-1.066h.002Z" />
+                                            <path
+                                                d="M12.5 0c-.157 0-.311.01-.565.027A1 1 0 0 0 11 1.02V10h8.975a1 1 0 0 0 1-.935c.013-.188.028-.374.028-.565A8.51 8.51 0 0 0 12.5 0Z" />
+                                        </svg>
+                                        <span class="ms-3">Dashboard</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                                        <svg class="shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                                            aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                            viewBox="0 0 18 18">
+                                            <path
+                                                d="M6.143 0H1.857A1.857 1.857 0 0 0 0 1.857v4.286C0 7.169.831 8 1.857 8h4.286A1.857 1.857 0 0 0 8 6.143V1.857A1.857 1.857 0 0 0 6.143 0Zm10 0h-4.286A1.857 1.857 0 0 0 10 1.857v4.286C10 7.169 10.831 8 11.857 8h4.286A1.857 1.857 0 0 0 18 6.143V1.857A1.857 1.857 0 0 0 16.143 0Zm-10 10H1.857A1.857 1.857 0 0 0 0 11.857v4.286C0 17.169.831 18 1.857 18h4.286A1.857 1.857 0 0 0 8 16.143v-4.286A1.857 1.857 0 0 0 6.143 10Zm10 0h-4.286A1.857 1.857 0 0 0 10 11.857v4.286c0 1.026.831 1.857 1.857 1.857h4.286A1.857 1.857 0 0 0 18 16.143v-4.286A1.857 1.857 0 0 0 16.143 10Z" />
+                                        </svg>
+                                        <span class="flex-1 ms-3 whitespace-nowrap">Kanban</span>
+                                        <span
+                                            class="inline-flex items-center justify-center px-2 ms-3 text-sm font-medium text-gray-800 bg-gray-100 rounded-full dark:bg-gray-700 dark:text-gray-300">Pro</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                                        <svg class="shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                                            aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                            viewBox="0 0 20 20">
+                                            <path
+                                                d="m17.418 3.623-.018-.008a6.713 6.713 0 0 0-2.4-.569V2h1a1 1 0 1 0 0-2h-2a1 1 0 0 0-1 1v2H9.89A6.977 6.977 0 0 1 12 8v5h-2V8A5 5 0 1 0 0 8v6a1 1 0 0 0 1 1h8v4a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-4h6a1 1 0 0 0 1-1V8a5 5 0 0 0-2.582-4.377ZM6 12H4a1 1 0 0 1 0-2h2a1 1 0 0 1 0 2Z" />
+                                        </svg>
+                                        <span class="flex-1 ms-3 whitespace-nowrap">Inbox</span>
+                                        <span
+                                            class="inline-flex items-center justify-center w-3 h-3 p-3 ms-3 text-sm font-medium text-blue-800 bg-blue-100 rounded-full dark:bg-blue-900 dark:text-blue-300">3</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                                        <svg class="shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                                            aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                            viewBox="0 0 20 18">
+                                            <path
+                                                d="M14 2a3.963 3.963 0 0 0-1.4.267 6.439 6.439 0 0 1-1.331 6.638A4 4 0 1 0 14 2Zm1 9h-1.264A6.957 6.957 0 0 1 15 15v2a2.97 2.97 0 0 1-.184 1H19a1 1 0 0 0 1-1v-1a5.006 5.006 0 0 0-5-5ZM6.5 9a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9ZM8 10H5a5.006 5.006 0 0 0-5 5v2a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1v-2a5.006 5.006 0 0 0-5-5Z" />
+                                        </svg>
+                                        <span class="flex-1 ms-3 whitespace-nowrap">Users</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                                        <svg class="shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                                            aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                            viewBox="0 0 18 20">
+                                            <path
+                                                d="M17 5.923A1 1 0 0 0 16 5h-3V4a4 4 0 1 0-8 0v1H2a1 1 0 0 0-1 .923L.086 17.846A2 2 0 0 0 2.08 20h13.84a2 2 0 0 0 1.994-2.153L17 5.923ZM7 9a1 1 0 0 1-2 0V7h2v2Zm0-5a2 2 0 1 1 4 0v1H7V4Zm6 5a1 1 0 1 1-2 0V7h2v2Z" />
+                                        </svg>
+                                        <span class="flex-1 ms-3 whitespace-nowrap">Products</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                                        <svg class="shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                                            aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 18 16">
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="2"
+                                                d="M1 8h11m0 0L8 4m4 4-4 4m4-11h3a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-3" />
+                                        </svg>
+                                        <span class="flex-1 ms-3 whitespace-nowrap">Sign In</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                                        <svg class="shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                                            aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                            viewBox="0 0 20 20">
+                                            <path
+                                                d="M5 5V.13a2.96 2.96 0 0 0-1.293.749L.879 3.707A2.96 2.96 0 0 0 .13 5H5Z" />
+                                            <path
+                                                d="M6.737 11.061a2.961 2.961 0 0 1 .81-1.515l6.117-6.116A4.839 4.839 0 0 1 16 2.141V2a1.97 1.97 0 0 0-1.933-2H7v5a2 2 0 0 1-2 2H0v11a1.969 1.969 0 0 0 1.933 2h12.134A1.97 1.97 0 0 0 16 18v-3.093l-1.546 1.546c-.413.413-.94.695-1.513.81l-3.4.679a2.947 2.947 0 0 1-1.85-.227 2.96 2.96 0 0 1-1.635-3.257l.681-3.397Z" />
+                                            <path
+                                                d="M8.961 16a.93.93 0 0 0 .189-.019l3.4-.679a.961.961 0 0 0 .49-.263l6.118-6.117a2.884 2.884 0 0 0-4.079-4.078l-6.117 6.117a.96.96 0 0 0-.263.491l-.679 3.4A.961.961 0 0 0 8.961 16Zm7.477-9.8a.958.958 0 0 1 .68-.281.961.961 0 0 1 .682 1.644l-.315.315-1.36-1.36.313-.318Zm-5.911 5.911 4.236-4.236 1.359 1.359-4.236 4.237-1.7.339.341-1.699Z" />
+                                        </svg>
+                                        <span class="flex-1 ms-3 whitespace-nowrap">Sign Up</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+    <div class="">
+        <div class="container mx-auto px-4 sm:px-6 2xl:px-20 overflow-hidden">
+            <div class="grid grid-cols-12 gap-5 sm:gap-8 md:gap-12 lg:gap-16">
+                <div class="col-span-12 lg:col-span-7 ">
+                    <div class=" mt-5 sm:mt-8 md:mt-14 lg:mt-20">
+                        <h1 class="umrah_pilgrim mb-3">How to perform Umrah </h1>
+                        <p class="mt-2 lg:mt-4 tips_p">In Arabic, the word ‘Umrah is derived from I‘timar which means a
+                            visit. However, ‘Umrah in Islamic terminology, means paying a visit to Ka’bah, performing
+                            Tawaf (circumambulation) around it, walking between Safa and Marwah seven times. A performer
+                            of ‘Umrah puts off his Ihram by having his hair shaved or cut. ‘Umrah can be performed along
+                            with Hajj and in other days as well.
+                            ‘Umrah can be performed during anytime in the year, there is no fixed time for ‘Umrah.</p>
+                        <h2 class="pillars_islam mt-2 lg:mt-4">The Pillars of `Umrah are four:</h2>
+                        <p class="mt-2 lg:mt-4 tips_p">a. Ihram: which is assumed at the Meeqat.</p>
+                        <p class="tips_p">b. Tawaf: around the House.</p>
+                        <p class="tips_p">c. Sa'y: walking between As-Safa and Al-Marwah, which consists of seven
+                            circuits.</p>
+                        <p class="tips_p">d. Tahal-lul: which means coming out of the state of Ihram; becoming lawful
+                            what was previously prohibited during Ihram.</p>
+                        <p class="tips_p">During ‘Umrah, pilgrims do not go to Mina, ‘Arafat and Muzdalifah or throw
+                            pebbles on the Jamrahs (stone pillars representing devils) or offer animal sacrifice. These
+                            rites are only performed during Hajj.</p>
+                        <h2 class="pillars_islam mt-2 lg:mt-4">How to perform ‘Umrah:</h2>
+                        <p class="tips_p mt-2 lg:mt-4 ">1. When the one who wants to perform ‘Umrah arrives at the
+                            Meeqat, it is recommended for him
+                            (both man and woman) to take a bath if convenient, including menstruating women and those
+                            experiencing postnatal bleeding. The man perfumes his head and beard but not his Ihram
+                            garments. There is no harm in what remains of it after Ihram. There is nothing wrong if it
+                            is not possible to take a bath at Meeqat.
+                        </p>
+                        <p class="tips_p mt-2 lg:mt-4 ">
+                            2. Men are to change into their clothing of Ihram while the women only need to make their
+                            intention at that time in the clothing they are already wearing. There is no specific
+                            clothing designated for women, except that they are prohibited from wearing the Niqab
+                            (face-veil) and gloves. Instead, they may cover their hands with the lower part of their
+                            khimar (head covering), while using the upper part of their jilbab (outer garment) or a
+                            separate piece of fabric to cover their faces by drawing it down, if there is need to do so.
+                        </p>
+                        <p class="tips_p mt-2 lg:mt-4 ">
+                            As for men, they must assume their Ihram at the Meeqat by wearing two pieces of fabric
+                            called the Izar and the Ridaa’. The Ridaa’ covers the top half of the body, while the Izar
+                            covers the lower half. No other clothing is allowed to be worn in addition to these – no
+                            underwear, no pants, no shirt, no turban, no hat, etc. are to be worn.
+                        </p>
+                        <p class="tips_p mt-2 lg:mt-4 ">
+                            Then the pilgrim makes the intention at the Meeqat to begin the rites of ‘Umrah by entering
+                            the state of Ihram. The intention must be made in the heart, while the statement made
+                            afterwards is: “Labayka ‘Umrah” or “Allahumma labbayka ‘Umrah”. This statement begins the
+                            rites of `Umrah. So the first pillar of `Umrah is the Ihram. The intention is made in the
+                            heart, while the tongue recites the opening Talbiyyah. And if you wish, when uttering
+                            Talbiyyah, you may state a condition to Allah fearing that which may prevent you from
+                            completion of the ‘Umrah whether illness or fear - saying “in habasanee habes fa mahillee
+                            haithu habastanee” (I come out of the state of Ihram from the place You prevent me from
+                            continuing). So if you do that and are then prevented or become ill - then you may come out
+                            of Ihram. Then repeat the Talbiyyah: “labbayk Allahumma labbayk, labbayka la shareeka laka
+                            labbayk, innal-hamda wan-ni'mata laka wal-mulk, la shareeka lak” (“In response to your call
+                            O Allah I perform ‘Umrah, here I am O Allah. In response to Your call. You have no partner.
+                            In response to Your call. All Praise and Blessings, and the Ownership of all that You
+                            created is Yours (alone). You have no partner”)
+                        </p>
+                        <p class="tips_p mt-2 lg:mt-4 ">
+                            Upon arriving at the sacred mosque in Makkah (Al-Masjid Al-Haram), you should enter with
+                            your right foot and say: "Bismillah, Allahumma Salli 'Ala Muhammad, Allahumma Ighfirli
+                            waftahli Abwaba Rahmatik. (In the name of Allah! O Allah! Exalt the mention of your
+                            Messenger. O Allah! Forgive my sins, and open the gates of Your mercy for me)." You should
+                            enter in a manner expressing humility and gratitude to the blessings He, Almighty, conferred
+                            upon you.
+                        </p>
+                        <p class="tips_p mt-2 lg:mt-4 ">
+                            3. Upon arriving at the Ka’bah, stop reciting the Talbiyyah, then approach the Black Stone,
+                            touch it with your right hand and kiss it. If this isn't possible, you should face the Black
+                            Stone and point to it. Don’t push and shove, causing harm and being harmed by other people.
+                            When touching the Stone, the following is said: “Bismil-lah, Allahu Akbar” (In the name of
+                            Allah, Allah is the Greatest) or "Allahu Akbar" (Allah is the Greatest).
+                        </p>
+                        <p class="tips_p mt-2 lg:mt-4 ">
+                            A pilgrim must walk, keeping the Ka’bah on his left. When you reach the Yamani corner touch
+                            it with your right hand, if possible, but do not kiss it, and say: “Bismil-lahi wa Allahu
+                            Akbar”. If this is difficult for you, then go on performing tawaf without touching it,
+                            pointing at it or even saying “Allahu Akbar” because this was not narrated from the Prophet
+                            sallallaahu `alayhi wa sallam ( may Allah exalt his mention ) on the other hand whenever you
+                            reach or are parallel to the black stone, touch it with your right hand, kiss it and say,
+                            “Bismillah Allahu Akbar”, if it is not possible then it is enough to point at it and say,
+                            “Bismillah, Allahu Akbar”.
+                        </p>
+                        <p class="tips_p mt-2 lg:mt-4"> During this Tawaf it is preferred for a man to do two things:
+                        </p>
+                        <p class="tips_p mt-2 lg:mt-4">
+                            a: Al-Idhtibaa' from the beginning of Tawaf until the end, which is placing the middle of
+                            one's Redaa' under the right arm and the ends of it over the left shoulder. When you are
+                            finished performing Tawaf, you may return your Reda' to its original state because the time
+                            for A-Idhtibaa' is only during Tawaf.
+                        </p>
+                        <p class="tips_p mt-2 lg:mt-4 ">
+                            b: Ar-Raml during the first three circuits only. Ar-Raml means speeding up one's pace with
+                            small steps.
+                        </p>
+                        <p class="tips_p mt-5 sm:mt-8 md:mt-12 lg:mt-20 ">
+                            “Allahu Akbar, Allahu Akbar, Allahu Akbar. La ilaha il-lall-llahu wadahu la shareeka lahu,
+                            lahul mulku wa lahul hamdu, wa huwa 'ala qulli shay'in qadeer. La ilaha il-lall-llahu
+                            wahdahu, anjaza wa'dahu, wa nasara 'abdahu, wa hazamal ahzaba wahdahu" (Allah is the
+                            Greatest, Allah is the Greatest, Allah is the Greatest. None has the right to be worshipped
+                            except Allah alone, Who has no partner. To Him belongs the dominion, to Him belongs all
+                            praise, and He has power over everything. He fulfilled His promise, gave victory to His
+                            servant, and defeated the confederates alone.)
+                        </p>
+                        <p class="tips_p mt-2 lg:mt-4 ">
+                            7. Then descend and go towards Marwah, running between the fluorescent green lights (for men
+                            only), upon reaching Marwah climb upon it if it is possible, and repeat the same procedure
+                            as when ascending Safa except you are not to recite the above-mentioned verse, because it is
+                            recited when ascending Safa for the first time only. This completes one circuit. Then one
+                            continues back to Safa running between the fluorescent green lights (for men only) - thus
+                            completing two circuits.
+                        </p>
+                    </div>
+
+
+                    
+                </div>
+
+                <div class="col-span-12 lg:col-span-5">
+                    <div class=" mt-5 sm:mt-8 md:mt-14 lg:mt-20">
+                        <div class="bg_post d-block">
+                            <div class="pt-12 p-8 ps-12">
+                                <h2 class="posts">Related Information</h2>
+                                <div class="mt-5 md:mt-6 lg:mt-8  gap-4">
+                                    <h2 class="relate_info">Visa Documentation</h2>
+                                    <a href="" class="read_more2 mt-3">Read More</a>
+                                </div>
+                                <div class="mt-5 md:mt-6 lg:mt-8  gap-4">
+                                    <h2 class="relate_info">In the Event of a Death</h2>
+                                    <a href="" class="read_more2 mt-3">Read More</a>
+                                </div>
+                                <div class="mt-5 md:mt-6 lg:mt-8  gap-4">
+                                    <h2 class="relate_info">Saudi Arabia Business Visa Requirements</h2>
+                                    <a href="" class="read_more2 mt-3">Read More</a>
+                                </div>
+                                <div class="mt-5 md:mt-6 lg:mt-8  gap-4">
+                                    <h2 class="relate_info">Vaccination Requirements</h2>
+                                    <a href="" class="read_more2 mt-3">Read More</a>
+                                </div>
+                                <div class="mt-5 md:mt-6 lg:mt-8  gap-4">
+                                    <h2 class="relate_info">Local Laws and Customs</h2>
+                                    <a href="" class="read_more2 mt-3">Read More</a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="bg_post mt-5 sm:mt-8 md:mt-12 lg:mt-16">
+                            <div class="pt-5 sm:pt-6 md:pt-8 lg:pt-12 p-5 md:p-6 lg:p-8 ps-5 sm:ps-6 md:ps-8 lg:ps-12">
+                                <h2 class="posts">Sign Up for Newsletter</h2>
+                                <p class="mt-5 stay_connected">Stay Connected to the Umrah Community Worldwide and Don't
+                                    Miss Out on the Latest
+                                    Umrah and Umrah Plus Deals!</p>
+                                <div class="mt-5">
+                                    <label class="block custome-label mb-1">Email Address</label>
+                                    <input type="email"
+                                        class="w-full border-b border-[#A7D3DD] focus:outline-none focus:border-[#005B68] bg-transparent px-1 py-2">
+                                </div>
+                                <button class="w-full send-enquiry-btn mt-8">Subscribe</button>
+
+                            </div>
+                        </div>
+
+                        <div class="bg_post mt-5 sm:mt-8 md:mt-12 lg:mt-16">
+                            <div class="pt-5 sm:pt-6 md:pt-8 lg:pt-12 p-5 md:p-6 lg:p-8 ps-5 sm:ps-6 md:ps-8 lg:ps-12">
+                                <h2 class="posts">Connect With Us!</h2>
+                                <div class="grid grid-cols-5 gap-4 md:gap-5 lg:gap-8 mt-5">
+                                    <div class="circle2 rotate-180">
+                                        <i class="fab fa-whatsapp fa-lg rotate-180"></i>
+                                    </div>
+                                    <div class="circle2 rotate-180">
+                                        <i class="fab fa-facebook-f fa-lg rotate-180"></i>
+                                    </div>
+                                    <div class="circle2 rotate-180">
+                                        <i class="fab fa-instagram fa-lg rotate-180"></i>
+                                    </div>
+                                    <div class="circle2 rotate-180">
+                                        <i class="fas fa-phone fa-lg rotate-180"></i>
+                                    </div>
+                                    <div class="circle2 rotate-180">
+                                        <i class="fas fa-envelope fa-lg rotate-180"></i>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer class="px-2 lg:px-4 overflow-hidden">
+        <div class="bg-[#005B68] pb-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-5 sm:p-10 md:p-16 lg:p-20 text-white">
+                <!-- Left Section -->
+                <div>
+                    <img src="assets/images/logo.png" class="h-12 max-w-full" alt="">
+                    <p class="mt-4 lg:mt-6 necessary d-block">In this article, we provide first-time pilgrims
+                        with
+                        practical
+                        advice—from the necessary.</p>
+                </div>
+
+                <!-- Center Logos -->
+                <div class="flex items-center  gap-3">
+                    <img src="assets/images/footer_logo_3.png" class="h-auto max-w-full object-contain" alt="">
+                    <img src="assets/images/footer_logo_2.png" class="h-auto max-w-full object-contain" alt="">
+                    <img src="assets/images/footer_logo_1.png" class="h-10 w-[120px] lg:w-[200px] object-contain"
+                        alt="">
+                </div>
+
+                <!-- Contact Info -->
+                <div class="space-y-6">
+                    <div class="flex gap-6">
+                        <div class="footer_info">
+                            <h2>Phone Number</h2>
+                            <p class="mt-1">0203 062 8929</p>
+                        </div>
+                        <div class="footer_info">
+                            <h2>Email</h2>
+                            <p class="mt-1">travelnest@domain.com</p>
+                        </div>
+                    </div>
+                    <div class="footer_info">
+                        <h2>Location</h2>
+                        <p class="mt-1">College Rd, Whalley Range, Manchester M16 8BP.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-block">
+                <div
+                    class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 p-5 sm:p-10 md:p-16 lg:p-20 text-white">
+
+                    <div>
+                        <h4 class="cheap_umrah mb-4">Cheap Umrah Packages</h4>
+                        <ul class="space-y-2 umrah_packages">
+                            <li>July Umrah Packages</li>
+                            <li>August Umrah Packages</li>
+                            <li>September Umrah Packages</li>
+                            <li>October Umrah Packages</li>
+                            <li>November Umrah Packages</li>
+                            <li>December Umrah Packages</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="cheap_umrah mb-4">Useful Links</h4>
+                        <ul class="space-y-2 umrah_packages">
+                            <li>Privacy Policy</li>
+                            <li>Contact Us</li>
+                            <li>Terms and Conditions</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4 class="cheap_umrah mb-4">Important Information</h4>
+                        <ul class="space-y-2 umrah_packages">
+                            <li>Umrah Vise</li>
+                            <li>How to perform Umrah</li>
+                            <li>Terms and Visa Documentation</li>
+                            <li>Terms and Visa Documentation</li>
+                            <li>Terms and Visa Documentation</li>
+                            <li>Local Laws and Customs</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p class="mb-4 payments">We accept following mode of payments</p>
+                            <img src="assets/images/payment-cards.png" class="h-auto max-w-full" alt="">
+                        </div>
+                        <div class="mt-5 lg:mt-8">
+                            <p class="payments">Follow us on</p>
+
+                            <div class="footer-icons flex gap-3 mt-4">
+                                <span class="icon-circle">
+                                    <i class="fab fa-instagram"></i>
+                                </span>
+                                <span class="icon-circle">
+                                    <i class="fab fa-facebook-f"></i>
+                                </span>
+                                <span class="icon-circle">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- Accordion Wrapper -->
+            <div class="px-5 sm:hidden border-b border-white">
+                <!-- Toggle Checkbox (hidden but controls visibility) -->
+                <input type="checkbox" id="accordion-1" class="peer hidden">
+                <!-- Label (clickable heading + icon) -->
+                <label for="accordion-1" class="flex gap-5 items-center py-4 text-white font-semibold cursor-pointer">
+                    Cheap Umrah Packages
+                    <img src="assets/images/arrow_down.svg" alt="arrow"
+                        class="w-4 h-4 transition-transform peer-checked:rotate-180">
+                </label>
+
+                <!-- Collapsible Content -->
+                <ul
+                    class="max-h-0 overflow-hidden transition-all duration-300 peer-checked:max-h-96 pl-2 space-y-2 text-white text-sm">
+                    <li>July Umrah Packages</li>
+                    <li>August Umrah Packages</li>
+                    <li>September Umrah Packages</li>
+                    <li>October Umrah Packages</li>
+                    <li>November Umrah Packages</li>
+                    <li>December Umrah Packages</li>
+                </ul>
+            </div>
+
+            <div class="px-5 sm:hidden border-b border-white">
+                <!-- Toggle Checkbox (hidden but controls visibility) -->
+                <input type="checkbox" id="accordion-2" class="peer hidden">
+
+                <!-- Label (clickable heading + icon) -->
+                <label for="accordion-2" class="flex gap-5 items-center py-4 text-white font-semibold cursor-pointer">
+                    Cheap Umrah Packages
+                    <img src="assets/images/arrow_down.svg" alt="arrow"
+                        class="w-4 h-4 transition-transform peer-checked:rotate-180">
+                </label>
+
+                <!-- Collapsible Content -->
+                <ul
+                    class="max-h-0 overflow-hidden transition-all duration-300 peer-checked:max-h-96 pl-2 space-y-2 text-white text-sm">
+                    <li>Privacy Policy</li>
+                    <li>Contact Us</li>
+                    <li>Terms and Conditions</li>
+                </ul>
+            </div>
+
+            <div class="px-5 sm:hidden border-b border-white">
+                <!-- Toggle Checkbox (hidden but controls visibility) -->
+                <input type="checkbox" id="accordion-3" class="peer hidden">
+
+                <!-- Label (clickable heading + icon) -->
+                <label for="accordion-3" class="flex gap-5 items-center py-4 text-white font-semibold cursor-pointer">
+                    Cheap Umrah Packages
+                    <img src="assets/images/arrow_down.svg" alt="arrow"
+                        class="w-4 h-4 transition-transform peer-checked:rotate-180">
+                </label>
+
+                <!-- Collapsible Content -->
+                <ul
+                    class="max-h-0 overflow-hidden transition-all duration-300 peer-checked:max-h-96 pl-2 space-y-2 text-white text-sm">
+                    <li>Umrah Vise</li>
+                    <li>How to perform Umrah</li>
+                    <li>Terms and Visa Documentation</li>
+                    <li>Terms and Visa Documentation</li>
+                    <li>Terms and Visa Documentation</li>
+                    <li>Local Laws and Customs</li>
+                </ul>
+            </div>
+
+
+
+            <div class="hidden px-5 sm:px-10 md:px-16 lg:px-20">
+                <div class="footer-breaker"></div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 p-5 sm:p-10 md:p-16 lg:p-20">
+                <div class="start_from">
+                    <p>Note: All fares advertised are subject to availability and start from the prices we have
+                        mentioned. Fares are only guaranteed until ticketed. Offers may be withdrawn without any
+                        prior notice.</p>
+                </div>
+                <div>
+                    <p class="copyright_claim mt-5 lg:mt-0">© Copyright 2025 Travigence as TAWHEED TRAVELS.
+                        Company
+                        Number 15101982. All Rights Reserved.</p>
+                </div>
+
+            </div>
+
+            <div class="p-5 sm:p-10 md:p-16 lg:p-20 ">
+                <div class="bg_protected">
+                    <p class="p-3 sm:p-4 md:p-6 lg:p-10 most_flights">“Most of the flights and flight-inclusive
+                        packages that we sell are ATOL and IATA protected by our suppliers. All quotations are
+                        subject to availability at the time of booking. When you pay you will be supplied with
+                        an
+                        ATOL Certificate. Please ask for it and check to ensure that everything you booked
+                        (flights,
+                        hotels and other services) is listed on it. Please see our booking conditions for
+                        further
+                        information or for more information about financial protection and the ATOL Certificate
+                        go
+                        to: www.atol.org.uk”</p>
+                </div>
+            </div>
+
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

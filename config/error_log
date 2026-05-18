@@ -1,0 +1,32 @@
+[19-Jan-2026 13:15:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/adroitso/public_html/www.tawheedtravel.co.uk/config/auth.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/adroitso/public_html/www.tawheedtravel.co.uk/config/auth.php on line 17
+[19-Jan-2026 13:16:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/adroitso/public_html/www.tawheedtravel.co.uk/config/auth.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/adroitso/public_html/www.tawheedtravel.co.uk/config/auth.php on line 17
+[19-Jan-2026 15:41:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/adroitso/public_html/www.tawheedtravel.co.uk/config/auth.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/adroitso/public_html/www.tawheedtravel.co.uk/config/auth.php on line 17
+[19-Jan-2026 16:50:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/adroitso/public_html/www.tawheedtravel.co.uk/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/adroitso/public_html/www.tawheedtravel.co.uk/config/session.php on line 21
+[19-Jan-2026 16:51:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/adroitso/public_html/www.tawheedtravel.co.uk/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/adroitso/public_html/www.tawheedtravel.co.uk/config/services.php on line 18
+[19-Jan-2026 16:53:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/adroitso/public_html/www.tawheedtravel.co.uk/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/adroitso/public_html/www.tawheedtravel.co.uk/config/queue.php on line 16
+[19-Jan-2026 16:58:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/adroitso/public_html/www.tawheedtravel.co.uk/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/adroitso/public_html/www.tawheedtravel.co.uk/config/mail.php on line 17
+[19-Jan-2026 17:07:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/adroitso/public_html/www.tawheedtravel.co.uk/config/logging.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/adroitso/public_html/www.tawheedtravel.co.uk/config/logging.php on line 21

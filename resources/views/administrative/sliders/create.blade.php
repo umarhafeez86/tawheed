@@ -1,0 +1,119 @@
+@extends('administrative.layouts.main')
+
+@section('main-container')
+<div class="container-fluid">
+  <script type="text/javascript" src="{{ asset('ckeditor/ckeditor.js') }}" ></script>
+  @php
+  include("ckeditor/ckeditor.php");
+  include('ckfinder/ckfinder.php');
+  @endphp
+  <!-- Title -->
+  <div class="row heading-bg">
+    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+      <h5 class="txt-dark"><?=$page_name?></h5>
+    </div>
+    <!-- Breadcrumb -->
+    <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
+      <ol class="breadcrumb">
+      <li><a href="{{ url('administrative/dashboard') }}">Dashboard</a></li>
+      <li><a href="{{ url('administrative/sliders/index') }}">{{ $page_name }}</a></li>
+      <li class="active"><span>{{ $subpage_name }}</span></li>
+      </ol>
+    </div>
+    <!-- /Breadcrumb -->
+  </div>
+        
+  <!-- /Title -->
+  
+  <!-- Row -->
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="panel panel-default card-view">
+        <div class="panel-heading">
+          <div class="pull-left">
+            <h6 class="panel-title txt-dark">{{ $subpage_name }}</h6>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <div class="panel-wrapper collapse in">
+          <div class="panel-body">
+            <div class="form-wrap">
+                                
+              <form data-toggle="validator" novalidate="true" action="{{ route("administrative.sliders.store") }}" method="post" enctype="multipart/form-data" >
+              @csrf
+                <div class="form-group">
+                  <label class="control-label mb-10 text-left">Heading</label>
+                  <input type="text" name="sliders_heading" class="form-control @error("sliders_heading") is-invalid @enderror" data-error="Value Required." value="{{ old("sliders_heading") }}" required >
+                        <div class="help-block with-errors"></div>
+                        @error("sliders_heading")
+                        <p class="invalid-feedback">{{ $message }}</p>
+                        @enderror
+                </div>
+                <div class="form-group">
+                  <label class="control-label mb-10 text-left">Sub Heading</label>
+                  <input type="text" name="sliders_subheading" class="form-control @error("sliders_subheading") is-invalid @enderror" value="{{ old("sliders_subheading") }}" >
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label mb-10 text-left">Image</label>
+                  <div class="fileinput fileinput-new input-group" data-provides="fileinput">
+                    <div class="form-control" data-trigger="fileinput"> <i class="glyphicon glyphicon-file fileinput-exists"></i> <span class="fileinput-filename"></span></div>
+                    <span class="input-group-addon fileupload btn btn-info btn-anim btn-file"><i class="fa fa-upload"></i> <span class="fileinput-new btn-text">Select file</span> <span class="fileinput-exists btn-text">Change</span>
+                    <input type="file" name="sliders_image">
+                    </span> <a href="#" class="input-group-addon btn btn-danger btn-anim fileinput-exists" data-dismiss="fileinput"><i class="fa fa-trash"></i><span class="btn-text"> Remove</span></a> 
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label text-left">Details</label>
+                   @php
+                  $CKEditor = new CKEditor();
+                  $CKEditor->returnOutput = true;
+                  $CKEditor->basePath = '../../ckeditor/';
+                  $CKEditor->config['width'] = "100%";
+                  $CKEditor->config['height'] = "650px";
+                  $initialValue = old("sliders_textdetails");
+                  CKFinder::SetupCKEditor( $CKEditor, '../../ckfinder/' ) ;
+                  $code = $CKEditor->editor("sliders_textdetails", $initialValue);
+                  echo $code;
+                  @endphp
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label text-left">Text Details</label>
+                  <textarea name="sliders_textdetails2" class="textarea_editor form-control" rows="5">{{ old("sliders_textdetails2") }}</textarea>
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label mb-10 text-left">Link</label>
+                  <input type="text" name="sliders_link" class="form-control" value="{{ old("sliders_link") }}">
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label text-left">Sort</label>
+                  <input type="text" name="sliders_sort" class="form-control" value="{{ old("sliders_sort") }}">
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label mb-10 text-left">Status</label>
+                  <select name="sliders_status" class="form-control">
+                    <option value="1">Enabled</option>
+                    <option value="0">Disabled</option>
+                  </select>
+                </div>
+                
+<div class="form-group mb-0">
+      <button type="submit" class="btn btn-success btn-anim"><i class="icon-rocket"></i><span class="btn-text">submit</span></button>
+</div>
+                                        
+                                        
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /Row -->
+</div>
+@endsection

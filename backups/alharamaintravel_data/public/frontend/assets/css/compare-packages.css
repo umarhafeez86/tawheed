@@ -1,0 +1,198 @@
+.pointer {
+    cursor: pointer;
+}
+
+.custom-table {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: black;
+}
+
+.custom-table th,
+.custom-table td {
+    background-color: transparent !important;
+}
+
+.custom-td,
+.custom-th {
+    color: #FACE8D;
+    text-align: center;
+    font-family: "Century Gothic";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.custom-th {
+    color: #FACE8D !important;
+}
+
+
+.custom-table {
+    border-collapse: collapse;
+    border-left: none;
+    border-right: none;
+}
+
+.custom-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.book-umrah{
+     margin: 0 auto;
+
+    padding: 12px 35px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    color: var(--text-inverse, #000);
+    font-family: "Century Gothic";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    border-radius: 500px;
+    box-shadow: 0px 0px 8.6px 0px rgba(5, 5, 5, 0.30);
+
+    background: #FACE8D;
+    background: linear-gradient(to left, #FACE8D 50%, #636363 50%);
+    background-position: right;
+    background-size: 210% 100%;
+    background-repeat: no-repeat;
+    transition: .5s ease-out;
+
+}
+.book-umrah:hover {
+  color:  #fff;
+  background-position: left;
+}
+
+.custom-table th {
+    color: #FACE8D;
+    text-align: center;
+    font-family: "Century Gothic";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; 
+}
+
+.custom-table td {
+    color: #FFF;
+    text-align: center;
+    font-family: "Century Gothic";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+/* Remove top border from the first row */
+.custom-table tr:first-child th {
+    border-top: 1px solid transparent !important;
+}
+
+/* Remove bottom border from the last row */
+.custom-table tr:last-child td {
+    border-bottom: 1px solid transparent !important;
+}
+
+/* Add left border only after the first column */
+.custom-table td:not(:first-child),
+.custom-table th:not(:first-child) {
+    border-left: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+/* Add right border only before the last column */
+.custom-table td:not(:last-child),
+.custom-table th:not(:last-child) {
+    border-right: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+.custom-table td,
+.custom-table th {
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    padding: 24px 24px !important;
+}
+
+/* Remove top border from the first row */
+
+.custom-table tr:first-child th {
+    border-top: 1px solid transparent !important;
+}
+
+/* Remove bottom border from the last row */
+.custom-table tr:last-child td {
+    border-bottom: 1px solid transparent !important;
+}
+
+/* Add left border only after the first column */
+.custom-table td:not(:first-child),
+.custom-table th:not(:first-child) {
+    border-left: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+/* Add right border only before the last column */
+.custom-table td:not(:last-child),
+.custom-table th:not(:last-child) {
+    border-right: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.custom-table td, .custom-table th {
+  background: #000 !important;
+}
+
+.sticky-col {
+  position: sticky;
+  left: 0;
+  background: #000 !important;
+  z-index: 1;
+}
+
+@media (max-width: 1200px) {
+    .book-umrah {
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+    .custom-table th {
+        font-size: 12px;
+    }
+    .custom-table td {
+        font-size: 12px;
+    }
+
+}
+
+
+@media (max-width: 900px) {
+    .book-umrah {
+        padding: 5px 10px;
+        font-size: 11px;
+    }
+    .custom-table th {
+        font-size: 12px;
+    }
+    .custom-table td {
+        font-size: 12px;
+    }
+
+    .custom-table td,
+    .custom-table th {
+        padding: 5px 5px !important;
+    }
+
+}
+

@@ -1,0 +1,55 @@
+.btn_details {
+    cursor: pointer;
+}
+.termsnote {
+    color: #fff;
+    font-family: "Century Gothic";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.termsnote a {
+    color: #FACE8D;
+    font-family: "Century Gothic";
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal; 
+    text-decoration: none;
+}
+
+.form-custon-inquiry .form-select {
+  display: inline-flex;
+  height: 60px;
+  padding: 16px 24px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.40);
+  color: var(--text-default, #FFF);
+  font-family: "Century Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  background-color: #272727;
+
+  appearance: none;              /* Hide default arrow */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-caret-down-fill' viewBox='0 0 16 16'%3E%3Cpath d='M7.247 11.14 2.451 5.658C1.885 5.064 2.324 4 3.204 4h9.592c.88 0 1.319 1.064.753 1.658l-4.796 5.482a1 1 0 0 1-1.506 0z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 16px;
+  padding-right: 2rem; /* space for the icon */
+
+
+}
+.form-custon-inquiry .form-select::placeholder {
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+.form-custon-inquiry .form-select::-ms-input-placeholder { /* Edge 12 -18 */
+  color: #fff;
+}

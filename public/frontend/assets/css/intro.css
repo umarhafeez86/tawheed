@@ -1,0 +1,392 @@
+body {
+    background: #005562;
+    background-image: url('../images/bg-info.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.bg-info {
+
+}
+
+.info-head {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.info-p {
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.start-btn {
+    display: flex;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    color: #005B68;
+    background: radial-gradient(circle at center, #005B68 0%, transparent 70%) no-repeat center;
+    background-color: #FFF;
+    background-size: 0% 0%;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: background-size 0.4s ease, color 0.4s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.start-btn a:hover {
+    background-size: 150% 150%;
+    color: #FFF;
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 91, 104, 0.3);
+}
+
+.umrah-btn {
+    position: relative;
+    display: flex;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    overflow: hidden;
+    z-index: 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #005B68;
+    background-color: #FFF;
+}
+
+.hajj-btn {
+    position: relative;
+    display: flex;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    overflow: hidden;
+    z-index: 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #FFF;
+    background-color: #54858c;
+}
+
+.umrah-btn:hover {
+    color: #005B68;
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 91, 104, 0.3);
+    border-color: #005B68;
+}
+
+.hajj-btn:hover {
+    color: #fff;
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 91, 104, 0.3);
+}
+
+.circle {
+    flex-shrink: 0;
+    aspect-ratio: 1/1;
+    display: flex;
+    width: 58px;
+    height: 58px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    border: 1px solid #005B68;
+    background: #005B68;
+    cursor: pointer;
+}
+
+.circle2 {
+    background: #FFF;
+    border: 1px solid #005B68;
+    /* All other styles same as .circle */
+    flex-shrink: 0;
+    aspect-ratio: 1/1;
+    display: flex;
+    width: 58px;
+    height: 58px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.img-1,
+.img-2 {
+    width: 24px;
+    height: 24px;
+}
+
+.rotate-180 {
+    transform: rotate(180deg);
+}
+
+.radio-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    border-radius: 100px;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFF;
+    background: rgba(255, 255, 255, 0.33);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.radio-btn::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 0%;
+    width: 100%;
+    background: #D4B357;
+    z-index: -1;
+    transition: height 0.3s ease;
+}
+
+input[type="radio"]:checked+.radio-btn {
+    color: #005B68;
+    background: #D4B357;
+}
+
+.radio-btn:hover::before {
+    height: 100%;
+}
+
+.radio-btn:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 91, 104, 0.3);
+}
+
+
+
+.radio-btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    border-radius: 100px;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFF;
+    background: rgba(255, 255, 255, 0.33);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.radio-btn2::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 0%;
+    width: 100%;
+    background: #D4B357;
+    z-index: -1;
+    transition: height 0.3s ease;
+}
+
+input[type="radio"]:checked+.radio-btn2 {
+    color: #005B68;
+    background: #D4B357;
+}
+
+.radio-btn2:hover::before {
+    height: 100%;
+}
+
+.radio-btn2:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 91, 104, 0.3);
+}
+
+
+.custome-label {
+    color: #D6D6D6;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.custome-field {
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+input::placeholder{
+        color: #D6D6D6;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.introbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    padding: 15px 0px;
+    width: 80%;
+    text-align: center;
+    border-radius: 100px;
+    color: #005B68;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    background: #fff;
+    background: linear-gradient(to left, #fff 50%, #54868e 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+.introbtn:hover{
+    background: #54868e;
+    color: #005B68; 
+    background-position: left;
+    transition: .5s ease-in;
+}
+
+
+.introbtn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.33);
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.btn-check:checked+.custom-button {
+    background-color: #fff;
+    color: #005B68;
+}
+
+.circle i {
+    color:  #005B68;
+}
+.circle2 i {
+    color:  #005B68;
+}
+
+#selectedText {
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.clearfix { 
+    clear: both;
+}
+
+.custom-mt { margin-top: 300px; }
+
+@media(max-height:600px) {
+    .custom-mt { margin-top: 150px;margin-bottom:0px; }
+    .info-head { font-size: 18px;}
+}
+
+@media(max-width:1024px) {
+    .custom-mt { margin-top: 200px; }
+    .info-head { text-align: center; }
+}
+
+
+@media (max-width:667px) {
+    .custom-mt { margin-top: 50px; }
+}
+
+@media(max-width:576px) {
+    
+    .custom-mt { margin-top: 50px; }
+    
+    
+    .info-head {
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center
+    }
+
+    .info-p {
+        font-size: 14px;
+    }
+
+    .start-btn,
+    .umrah-btn,
+    .hajj-btn,
+    .radio-btn {
+        height: 50px;
+        font-size: 18px;
+    }
+
+    /* .bg-info{
+        background-image: url('../images/intro-bg-small.png');
+        height: 100vh;
+    } */
+}

@@ -1,0 +1,2004 @@
+.nav-link li {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.book-btn {
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    color: #005B68;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    width: 198px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #FFF;
+    transition: color 0.3s ease;
+}
+
+.book-btn::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #66aeb9;
+    border-radius: 100px;
+    transform: translateY(100%);
+    transition: transform 0.4s ease-in-out;
+    z-index: -1;
+}
+
+.book-btn:hover::before {
+    transform: translateY(0);
+}
+
+.book-btn:hover {
+    color: white;
+}
+
+.bg-nav {
+    background-image: url('../images/nav-img.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* height: 700px; */
+    border-radius: 50px;
+    /* background: linear-gradient(0deg, rgba(0, 91, 104, 0.40) 0%, rgba(0, 91, 104, 0.40) 100%), url('../images/nav-img.png') lightgray 0px -401.73px / 100% 153.236% no-repeat; */
+}
+
+.bg-border {
+    border-radius: 50px;
+    border: 8px solid #FFF;
+    /* height: 450px; */
+
+}
+
+.d-none {
+    display: none !important;
+}
+
+.d-block {
+    display: block !important;
+}
+
+.our-patner {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    /* 125% */
+}
+
+.our-patner span {
+    color: #D4B357;
+    font-family: 'Poppins';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.our-patner-p {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bg-form {
+    border-radius: 200px;
+    background: #FFF;
+    /* width: 1471px; */
+    /* height: 148px; */
+    flex-shrink: 0;
+    margin-top: -85px;
+}
+
+.custome-label {
+    color: #333;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.search-packages {
+    display: flex;
+    /* width: 355px; */
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #D4B357;
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    align-items: center;
+}
+
+.bg-contact {
+    border-radius: 100px;
+    background: #FFF;
+    box-shadow: 0px 4px 28px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    width: 623px;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    margin-top: -41px;
+}
+
+.line-breaker {
+    background: #005B68;
+    width: 1px;
+    height: 36px;
+}
+
+.line-breaker2 {
+    background: #005B68;
+    width: 1px;
+}
+
+.call-us {
+    color: #005B68;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.contact-us {
+    color: #D4B357;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.our-experiance {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 56px;
+    /* 116.667% */
+}
+
+.our-experiance-p {
+    color: rgba(0, 0, 0, 0.50);
+    text-align: justify;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.review h2 {
+    color: #005B68;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.review p {
+    color: #000;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.affordable-price {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 56px;
+    /* 116.667% */
+    width: 699px;
+}
+
+.umrah-leaving {
+    color: #000;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 56px;
+    /* 116.667% */
+}
+
+.affordable-price-p {
+    color: rgba(0, 0, 0, 0.50);
+    text-align: justify;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.umrah-leaving-p {
+    color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.view-more {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    width: 200px;
+    height: 58px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 1px solid rgba(0, 91, 104, 0.3);
+    color: #005B68;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 91, 104, 0.1);
+    transition: color 0.4s ease;
+}
+
+.view-more::before {
+    content: '';
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 91, 104, 0.2);
+    transition: bottom 0.6s ease;
+    z-index: 0;
+}
+
+.view-more:hover::before {
+    bottom: 0;
+}
+
+.view-more:hover {
+    color: #003B48;
+}
+
+.view-more>* {
+    position: relative;
+    z-index: 1;
+}
+
+.card-width {
+    width: 539px;
+    border-radius: 50px 50px 50px 50px;
+    background: #FFF;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid transparent;
+    flex-shrink: 0;
+}
+
+.card-width2 {
+    border-radius: 50px 50px 50px 50px;
+    background: #FFF;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid transparent;
+    flex-shrink: 0;
+}
+
+.card-width2:hover {
+    border: 1px solid #005B68;
+    box-shadow: 0 4px 20px rgba(0, 91, 104, 0.2);
+}
+
+.img-card-width {
+    width: 372px;
+    border-radius: 20px;
+    flex-shrink: 0;
+}
+
+.card-width:hover {
+    border: 1px solid #005B68;
+    box-shadow: 0 4px 20px rgba(0, 91, 104, 0.2);
+}
+
+.scroll-none {
+    scrollbar-width: none;
+}
+
+/* .card-body {
+  border-radius: 0px 0px 50px 50px;
+} */
+
+.rating-star {
+    color: #FFA100;
+}
+
+.card-h {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.destination {
+    color: rgba(0, 0, 0, 0.50);
+    text-align: justify;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.destination_route {
+    color: #000;
+    text-align: justify;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.service {
+    color: rgba(0, 0, 0, 0.80);
+    text-align: right;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 111.111% */
+}
+
+.card-breaker {
+    background-color: #005B68;
+    height: 1px;
+}
+
+.prices h3 {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 46px;
+    /* 127.778% */
+}
+
+.prices p {
+    color: rgba(0, 0, 0, 0.80);
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.circle {
+    flex-shrink: 0;
+    aspect-ratio: 1/1;
+    display: flex;
+    width: 58px;
+    height: 58px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    border: 1px solid #005B68;
+    /* background: #005B68; */
+    cursor: pointer;
+}
+
+
+.circle2 {
+    position: relative;
+    overflow: hidden;
+    width: 58px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: rgba(0, 91, 104, 0.33);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.circle2::before {
+    content: '';
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #005B68;
+    transition: bottom 0.4s ease;
+    z-index: 0;
+    border-radius: 100%;
+}
+
+.circle2:hover {
+    transform: scale(1.05);
+}
+
+.circle2:hover::before {
+    bottom: 0;
+}
+
+.circle2>* {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    transition: color 0.4s ease;
+}
+
+.circle2:hover>* {
+    color: #FFF;
+    /* contrast color after water fill */
+}
+
+
+.view-details {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    width: 200px;
+    height: 58px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #005B68;
+}
+
+.view-details {
+    transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.view-details:hover {
+    background: #0A6C7A;
+    /* slightly lighter shade */
+    color: #F3FDFF;
+    /* lighter font on hover */
+    box-shadow: 0 4px 15px rgba(0, 91, 104, 0.4);
+    /* subtle glow */
+}
+
+
+.view-details_btn {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    width: 200px;
+    height: 58px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #005B68;
+}
+
+.view-details_btn {
+    transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.view-details_btn:hover {
+    background: #0A6C7A;
+    /* slightly lighter shade */
+    color: #F3FDFF;
+    /* lighter font on hover */
+    box-shadow: 0 4px 15px rgba(0, 91, 104, 0.4);
+    /* subtle glow */
+}
+
+.deposit-only {
+    color: #005B68;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    width: 192px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #FFF;
+}
+
+.time-duaration {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    width: 192px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #00282E;
+}
+
+.accordian-heading {
+    color: var(--2, #272725);
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 25px;
+
+}
+
+.bg-open {
+    background: #F3FDFF;
+    border-bottom: 1px solid var(--4, #777);
+}
+
+.border-p {
+    display: flex;
+    padding: 25px;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 25px;
+    background: #005B68;
+}
+
+.border-p h2 {
+    color: var(--1, #FFF);
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: start;
+}
+
+.border-p p {
+    color: var(--1, #FFF);
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.questions {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 56px;
+    /* 116.667% */
+}
+
+.bg-yellow {
+    /* width: 670px; */
+    /* height: 437px; */
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #D4B357;
+}
+
+.talk-to h2 {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 56px;
+    /* 116.667% */
+}
+
+.talk-to p {
+    color: #FFF;
+    text-align: justify;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.call-us-btn {
+    position: relative;
+    overflow: hidden;
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.33);
+    transition: color 0.4s ease;
+}
+
+/* Hover overlay effect */
+.call-us-btn::before {
+    content: '';
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    /* light glassy overlay */
+    transition: bottom 0.6s ease;
+    z-index: 0;
+}
+
+.call-us-btn:hover::before {
+    bottom: 0;
+}
+
+.call-us-btn:hover {
+    color: #005B68;
+}
+
+.call-us-btn>* {
+    position: relative;
+    z-index: 1;
+}
+
+.bg-enquiry {
+    border-radius: 50px;
+    border: 1px solid #005B68;
+    /* width: 659px; */
+    /* height: 698px; */
+    flex-shrink: 0;
+}
+
+.bg-enquiry h2 {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.send-enquiry-btn {
+    position: relative;
+    overflow: hidden;
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    height: 58px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: rgba(0, 91, 104, 0.33);
+    transition: color 0.4s ease;
+}
+
+/* Hover sliding effect */
+.send-enquiry-btn::before {
+    content: '';
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    transition: bottom 0.6s ease;
+    z-index: 0;
+}
+
+.send-enquiry-btn:hover::before {
+    bottom: 0;
+}
+
+.send-enquiry-btn:hover {
+    color: #003B48;
+}
+
+.send-enquiry-btn>* {
+    position: relative;
+    z-index: 1;
+}
+
+.card2 {
+    /* max-width: 677px; */
+    /* height: 258px; */
+    flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #FFF;
+}
+
+.tips-tricks h2 {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.tips-tricks p {
+    color: rgba(0, 0, 0, 0.50);
+    text-align: justify;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.read-more {
+    color: #005B68;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.read-more::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #005B68;
+    transition: width 0.3s ease;
+}
+
+.read-more:hover {
+    color: #003B48;
+}
+
+.read-more:hover::after {
+    width: 27%;
+}
+
+.card-img {
+    width: 228px;
+    height: 258px;
+    flex-shrink: 0;
+}
+
+.necessary {
+    color: #FFF;
+    text-align: justify;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 252px;
+}
+
+.footer_info h2 {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer_info p {
+    color: #FFF;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 125% */
+}
+
+.umrah_packages li {
+    color: #FFF;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 125% */
+}
+
+.umrah_packages li:hover {
+    color: #FFD700;
+    /* or any highlight color */
+    cursor: pointer;
+    text-decoration: underline;
+    /* optional */
+    transition: color 0.3s ease;
+}
+
+.cheap_umrah {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.payments {
+    color: #FFF;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 125% */
+}
+
+.icon-circle {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 999px;
+    border: 1px solid #FFF;
+    overflow: hidden;
+    color: white;
+    transition: color 0.4s ease;
+    cursor: pointer;
+}
+
+.icon-circle::before {
+    content: '';
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FFF;
+    transition: bottom 0.8s ease;
+    z-index: 0;
+}
+
+.icon-circle:hover::before {
+    bottom: 0;
+}
+
+.icon-circle:hover {
+    color: #005B68;
+}
+
+.icon-circle i {
+    position: relative;
+    z-index: 1;
+    font-size: 16px;
+}
+
+.footer-breaker {
+    height: 2px;
+    /* width: 100%; */
+    background-color: #FFF
+}
+
+.start_from {
+    color: #FFF;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 125% */
+    width: 582px;
+}
+
+.copyright_claim {
+    color: #FFF;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 125% */
+    width: 491px;
+}
+
+.bg_protected {
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.43);
+    /* width: 1380px; */
+    /* height: 152px; */
+    flex-shrink: 0;
+}
+
+.most_flights {
+    color: #005B68;
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 125% */
+}
+
+.reach_us h2 {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.reach_us p {
+    color: rgba(0, 0, 0, 0.50);
+    text-align: justify;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.reach_us_route {
+    position: relative;
+    display: inline-flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    background: var(--secondary2-s100, #F3F3F3);
+    overflow: hidden;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.reach_us_route::before {
+    content: '';
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #D2E7EB;
+    /* Light teal or desired wave color */
+    transition: bottom 0.4s ease;
+    z-index: 0;
+}
+
+.reach_us_route:hover::before {
+    bottom: 0;
+}
+
+.reach_us_route>* {
+    position: relative;
+    z-index: 1;
+}
+
+.contact_us {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    /* 130% */
+    cursor: pointer;
+}
+
+.contact_us:hover {
+    color: #005B68;
+}
+
+.bg-about {
+    border-radius: 50px;
+    border: 4px solid #005B68;
+    /* width: 1542px; */
+    height: 248px;
+    flex-shrink: 0;
+    border-top: none;
+}
+
+.bg-heading {
+    border-radius: 100px;
+    border: 4px solid #005B68;
+    background: #FFF;
+    /* width: 1380px; */
+    /* height: 128px; */
+    flex-shrink: 0;
+    margin-top: 182px;
+}
+
+.tawheed_travels {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.why_choose_us h2 {
+    color: #000;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 56px;
+    /* 116.667% */
+}
+
+.why_choose_us span {
+    color: #005B68;
+    font-family: 'Poppins';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 56px;
+}
+
+.why_choose_us p {
+    color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.our_features h2 {
+    color: #000;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.our_features p {
+    color: #555;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.our_features {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease, border-radius 0.3s ease;
+    cursor: pointer;
+}
+
+.our_features:hover {
+    border-radius: 50px;
+    background: #F3FDFF;
+}
+
+.know_about_us h2 {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 56px;
+    /* 116.667% */
+}
+
+.know_about_us p {
+    color: rgba(0, 0, 0, 0.50);
+    text-align: justify;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.month_umrah {
+    color: #005B68;
+    text-align: justify;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.total_star {
+    color: rgba(0, 0, 0, 0.80);
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nights_spend {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.price {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 46px;
+    /* 127.778% */
+}
+
+.price_span {
+    color: rgba(0, 0, 0, 0.80);
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.share_room {
+    color: rgba(0, 0, 0, 0.80);
+    text-align: justify;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.share_destination {
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.share_destination_span {
+    color: #000;
+    text-align: justify;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.hotel_discription {
+    color: rgba(0, 0, 0, 0.50);
+    text-align: justify;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.packages_showing {
+    color: rgba(0, 0, 0, 0.50);
+    text-align: justify;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.filter_btn {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    width: 200px;
+    height: 58px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: rgba(0, 91, 104, 0.10);
+    color: #005B68;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: color 0.4s ease;
+}
+
+.filter_btn::before {
+    content: '';
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 91, 104, 0.2);
+    transition: bottom 0.6s ease;
+    z-index: 0;
+    border-radius: 100px;
+}
+
+.filter_btn:hover::before {
+    bottom: 0;
+}
+
+.filter_btn:hover {
+    color: #003B48;
+}
+
+.filter_btn>* {
+    position: relative;
+    z-index: 1;
+}
+
+.month_umrah_pkg {
+    color: #005B68;
+    text-align: justify;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card_breaker {
+    background: rgba(0, 91, 104, 0.33);
+    width: 2px;
+    height: 100%;
+}
+
+.terms_condition {
+    color: #005B68;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.popular_umrah {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 56px;
+    /* 116.667% */
+    width: 699px;
+}
+
+.bg-blue-overlay {
+    background-color: rgba(0, 91, 104, 0.72);
+    border-radius: 20px;
+    /* backdrop-filter: blur(14px); */
+}
+
+.bg-blue-overlay2 {
+    background-color: rgba(0, 91, 104, 0.72);
+    /* backdrop-filter: blur(14px); */
+}
+
+.cost_start {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cost_start_span {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.blog_written {
+    color: #005B68;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    /* adds space between date, separator, and author */
+}
+
+.blog_written .separator {
+    color: #C7C7C7;
+}
+
+.tips {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.tips_p {
+    color: rgba(0, 0, 0, 0.50);
+    text-align: justify;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.read_more {
+    color: #005B68;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: color 0.3s ease;
+}
+
+.read_more:hover {
+    color: #0db1ce;
+}
+
+.read_more2 {
+    color: #005B68;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: color 0.3s ease;
+}
+
+.read_more2:hover {
+    color: #0db1ce;
+}
+
+.bg_post {
+    /* width: 572px; */
+    /* height: 606px; */
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.05);
+}
+
+.posts {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.essential_tips {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    /* 130% */
+    margin-top: 10px;
+
+}
+
+.essential_tips_p {
+    color: #005B68;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+.essential_Admin {
+    color: rgba(0, 0, 0, 0.50);
+    text-align: justify;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+.stay_connected {
+    color: rgba(0, 0, 0, 0.50);
+    text-align: justify;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.umrah_pilgrim {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    /* width: 749px; */
+}
+
+.perfect_umrah_heading {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 41px;
+    width: 350px;
+}
+
+.relate_info {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 130% */
+}
+
+.pillars_islam {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.w-custome{
+    width: 450px;
+}
+
+footer{
+    border-radius: 50px;
+}
+
+input[type="radio"] {
+  accent-color: #005B68;
+}
+
+
+@media (max-width:1300px) {
+    .nav-link li {
+        font-size: 14px;
+    }
+
+    .book-btn {
+        font-size: 16px;
+        width: 125px;
+        height: 40px;
+    }
+
+    .affordable-price,
+    .umrah-leaving,
+    .popular_umrah,
+    .perfect_umrah_heading {
+        width: auto;
+        font-size: 27px;
+        line-height: 40px;
+    }
+
+    .necessary,
+    .start_from,
+    .copyright_claim,
+    .stay_connected {
+        width: auto;
+    }
+
+    .view-details_btn {
+        width: auto;
+        height: auto;
+        padding: 15px 20px;
+        font-size: 14px;
+    }
+
+    .hide_on_large {
+        display: none !important;
+    }
+
+    .essential_tips {
+        font-size: 14px;
+        line-height: normal;
+    }
+}
+
+@media (max-width:1024px) {
+    .d-none {
+        display: block !important;
+    }
+
+    .d-block {
+        display: none !important;
+    }
+
+    .our-patner,
+    .our-patner span,
+    .our_features h2,
+    .popular_umrah,
+    .tips,
+    .perfect_umrah_heading {
+        font-size: 24px;
+        line-height: 22px;
+    }
+
+    .bg-border {
+        border: 4px solid #FFF;
+        border-radius: 20px;
+    }
+
+    .bg-nav {
+        border-radius: 20px;
+
+    }
+
+    .our-patner-p,
+    .our_features p,
+    .month_umrah,
+    .hotel_discription,
+    .tips_p.border-p p,
+    .know_about_us p,
+    .stay_connected {
+        font-size: 15px;
+    }
+
+    .bg-form,
+    .bg_post,
+    .bg-yellow,.card2 {
+        border-radius: 20px;
+    }
+
+    .custome-label {
+        font-size: 15px;
+    }
+
+    .search-packages {
+        width: 100%;
+        font-size: 16px;
+        height: 48px;
+    }
+
+    .card-width {
+        width: 440px;
+    }
+
+    .img-card-width {
+        width: 330px;
+    }
+
+    .view-details {
+        width: 170px;
+        height: 55px;
+        font-size: 18px;
+    }
+/* 
+    .circle {
+        display: none;
+    } */
+
+    .circle2 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .prices h3,
+    .why_choose_us h2,
+    .why_choose_us span,
+    .know_about_us h2,
+    .price,
+    .nights_spend,
+    .umrah_pilgrim {
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    .deposit-only {
+        border-radius: 0px 4px 4px 0px;
+    }
+
+    .accordian-heading,
+    .border-p h2,
+    .read_more {
+        font-size: 18px;
+    }
+
+    .bg_protected {
+        border-radius: 20px;
+    }
+
+    .width-on-small {
+        width: 95% !important;
+    }
+
+    .bg-heading {
+        margin-top: 118px;
+        border-radius: 20px;
+    }
+
+    .bg-about {
+        height: 180px;
+    }
+
+    .tips-tricks h2,.read-more{
+        font-size: 16px;
+    }
+    .w-custome{
+        width: auto;
+    }
+
+}
+
+@media (max-width:768px) {
+    .border-p {
+        border-radius: 0px;
+    }
+}
+
+@media (max-width:576px) {
+
+    .our-patner,
+    .our-patner span,
+    .our-experiance,
+    .affordable-price,
+    .umrah-leaving,
+    .talk-to h2,
+    .why_choose_us h2,
+    .why_choose_us span,
+    .know_about_us h2.price,
+    .nights_spend,
+    .share_destination_span,
+    .share_destination,
+    .share_room,
+    .packages_showing,
+    .popular_umrah,
+    .tips,
+    .posts,
+    .umrah_pilgrim,
+    .perfect_umrah_heading,
+    .pillars_islam {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .bg-border {
+        border: 4px solid #FFF;
+        border-radius: 20px;
+    }
+
+    .bg-nav {
+        border-radius: 20px;
+
+    }
+
+    .our-patner-p,
+    .our-experiance-p,
+    .review p,
+    .contact_us,
+    .why_choose_us p,
+    .month_umrah,
+    .hotel_discription,
+    .destination_route,
+    .blog_written,
+    .stay_connected, .tips-tricks h2,.read-more {
+        font-size: 14px;
+    }
+
+    .bg-form {
+        border-radius: 20px;
+    }
+
+    .custome-label {
+        font-size: 14px;
+    }
+
+    .search-packages {
+        width: 200%;
+        font-size: 14px;
+        height: 42px;
+    }
+
+    .review h2 {
+        font-size: 24px;
+    }
+
+    .card-width {
+        width: 328px;
+    }
+
+    .deposit-only {
+        height: 28px;
+        width: 121px;
+        font-size: 10px;
+        border-radius: 0px 4px 4px 0px;
+
+    }
+
+    .time-duaration {
+        height: 28px;
+        width: 121px;
+        font-size: 10px;
+    }
+
+    .card-h,
+    .destination,
+    .talk-to p {
+        font-size: 14px;
+    }
+
+    .service p {
+        font-size: 12px;
+    }
+
+    .prices h3 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .view-details {
+        width: 100px;
+        height: 35px;
+        font-size: 12px;
+    }
+
+    .prices p {
+        font-size: 10px;
+    }
+
+    .circle,.circle2 {
+        width: 34px;
+        height: 34px;
+    }
+
+    /* .circle2 {
+        width: 34px;
+        height: 34px;
+    } */
+
+    .img-card-width {
+        width: 270px;
+    }
+
+    .accordian-heading,
+    .border-p h2 {
+        font-size: 16px;
+    }
+
+    .border-p p {
+        font-size: 14px;
+    }
+
+    .call-us-btn,
+    .send-enquiry-btn {
+        font-size: 14px;
+        height: 45px;
+    }
+
+    .bg-enquiry h2 {
+        font-size: 18px;
+    }
+
+    .card-img {
+        width: 114px;
+        height: 148px;
+        flex-shrink: 0;
+        border-radius: 20px;
+    }
+
+    .most_flights,
+    .footer_info p,
+    .umrah_packages li,
+    .start_from,
+    .copyright_claim,
+    .price_span {
+        font-size: 12px;
+        line-height: normal;
+    }
+
+    .footer_info h2,
+    .cheap_umrah,
+    .payments,
+    .reach_us p,
+    .tawheed_travels,
+    .know_about_us p,
+    .tips_p,
+    .read_more,.tips-tricks p {
+        font-size: 14px;
+        line-height: normal;
+    }
+
+    .bg-about {
+        border-radius: 20px;
+        height: 107px;
+    }
+
+    .bg-heading {
+        margin-top: 73px;
+    }
+
+
+}
+
+@media (max-width:500px) {
+    .card-width {
+        width: 275px;
+    }
+
+    .our-patner,
+    .our-patner span,
+    .our-experiance,
+    .affordable-price,
+    .umrah-leaving,
+    .talk-to h2,
+    .know_about_us h2,
+    .price,
+    .nights_spend,
+    .share_destination_span,
+    .share_destination,
+    .share_room,
+    .packages_showing,
+    .filter_btn,
+    .popular_umrah,
+    .tips,
+    .posts,
+    .umrah_pilgrim,
+    .perfect_umrah_heading,
+    .pillars_islam {
+        font-size: 17px;
+    }
+
+
+    .custome-label {
+        font-size: 10px;
+    }
+
+    .img-card-width {
+        width: 270px;
+    }
+
+    .accordian-heading,
+    .border-p h2 {
+        font-size: 14px;
+    }
+
+    .card-h,
+    .destination,
+    .talk-to p,
+    .reach_us p,
+    .tawheed_travels,
+    .know_about_us p,
+    .month_umrah,
+    .price_span,
+    .hotel_discription,
+    .bg-enquiry h2,
+    .border-p p,
+    .talk-to p,
+    .contact_us,
+    .destination_route,
+    .tips_p,
+    .blog_written,
+    .read_more,
+    .stay_connected,.tips-tricks p {
+        font-size: 12px;
+    }
+
+    .filter_btn {
+        width: 121px;
+        height: 42px;
+    }
+
+
+
+}

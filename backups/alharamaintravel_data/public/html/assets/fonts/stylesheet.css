@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Gothic A1';
+    src: url('GothicA1-Regular.woff2') format('woff2'),
+        url('GothicA1-Regular.woff') format('woff'),
+        url('GothicA1-Regular.ttf') format('truetype'),
+        url('GothicA1-Regular.svg#GothicA1-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Judson';
+    src: url('Judson.woff2') format('woff2'),
+        url('Judson.woff') format('woff'),
+        url('Judson.ttf') format('truetype'),
+        url('Judson.svg#Judson') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-Regular.woff2') format('woff2'),
+        url('Inter-Regular.woff') format('woff'),
+        url('Inter-Regular.ttf') format('truetype'),
+        url('Inter-Regular.svg#Inter-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

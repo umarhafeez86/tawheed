@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frame 3</title>
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" /> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="assets/css/intro.css">
+
+
+</head>
+
+<body>
+
+    <div class="bg-info relative overflow-hidden">
+        <div class="container mx-auto overflow-hidden">
+            <div class="grid grid-cols-12">
+                <div class="mt-10 lg:mt-16 ml-5 lg:mr-1 col-span-4 lg:col-span-2 ">
+                    <img src="assets/images/logo.png" class="h-auto max-w-full" alt="">
+                </div>
+                <div class=" col-span-12 lg:col-span-10 relative ">
+                    <div class="float-right mt-[80px] md:mt-[146px] lg:mt-[240px] m-[30px] lg:m-5">
+                        <h2 class="info-head">Do you have travel dates in mind?</h2>
+
+                        <div class="mt-10 lg:mt-20 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-5"
+                            id="radio-group">
+                            <input type="radio" name="trip" id="fixed" class="hidden peer/fixed" checked>
+                            <label for="fixed" class="radio-btn">Fixed</label>
+
+                            <input type="radio" name="trip" id="flexible" class="hidden peer/flexible">
+                            <label for="flexible" class="radio-btn">Flexible</label>
+
+                            <input type="radio" name="trip" id="anytime" class="hidden peer/anytime">
+                            <label for="anytime" class="radio-btn">Anytime</label>
+                        </div>
+
+                      <div class="grid grid-cols-1 md:grid-cols-12 gap-4 sm:gap-6 md:gap-10 lg:gap-24 mt-8 lg:mt-12 w-full">
+
+                            <!-- Date Picker -->
+                            <div class="relative w-full col-span-12 lg:col-span-7">
+                                <label for="datepicker-autohide" class="custome-label">Departure
+                                    Date</label>
+
+                                <input id="datepicker-autohide" datepicker datepicker-autohide type="text"
+                                    class="bg-transparent border-0 border-b-2 border-white text-white text-lg font-semibold w-full ps-2 py-2 pr-10 placeholder-white focus:outline-none focus:border-[#D4B357]" />
+
+                                <img src="assets/images/cross.svg" alt=""
+                                    class="absolute right-2 top-1/2 transform  w-6 h-6 cursor-pointer"
+                                    onclick="document.getElementById('datepicker-autohide').value=''" />
+                            </div>
+
+
+                            <!-- Number of Days -->
+                            <div class="col-span-12 lg:col-span-5 w-full">
+                                <label for="quantity-input" class="custome-label">Number Of Days</label>
+                                <div
+                                    class="flex items-center justify-between border-b-2 border-white w-full max-w-full overflow-hidden">
+                                    <button type="button" id="decrement-button"
+                                        data-input-counter-decrement="quantity-input" class="px-2 py-2 shrink-0">
+                                        <img src="assets/images/minus.svg" alt="">
+                                    </button>
+                                    <input type="text" id="quantity-input" data-input-counter value="0"
+                                        class="bg-transparent border-0 text-white text-lg text-center font-semibold flex-grow focus:outline-none"
+                                        readonly />
+                                    <button type="button" id="increment-button"
+                                        data-input-counter-increment="quantity-input" class="px-2 py-2 shrink-0">
+                                        <img src="assets/images/plus.svg" alt="">
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="flex justify-center gap-4 mt-20 items-center">
+
+                            <div
+                                class="relative group w-40 h-16 rounded-full overflow-hidden bg-white text-center cursor-pointer">
+                                <div
+                                    class="absolute inset-0 bg-[#D4B357] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out z-0">
+                                </div>
+                                <div
+                                    class="relative z-10 text-sky-900 text-2xl font-semibold font-['Poppins'] flex justify-center items-center h-full">
+                                    OK
+                                </div>
+                            </div>
+
+
+                            <div class=" lg:text-lg font-['Poppins'] text-neutral-300">
+                                <span class="font-normal">Or press </span>
+                                <span class="font-semibold">Enter</span>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+</body>
+
+</html>

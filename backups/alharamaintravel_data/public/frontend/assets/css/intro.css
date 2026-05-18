@@ -1,0 +1,645 @@
+body {
+    background: url('../images/main-splash-bg-new.jpg') top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.toprighticonsbar {
+    background: #272727;
+    position: fixed;
+    top: 184px;
+    right: 0px;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.toprighticons {
+    font-size: 14px;
+    margin-bottom: 10px;
+    
+    color: #000;
+    font-family: "Century Gothic";
+    font-weight: bold;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-decoration: none;
+    padding: 9px 6px;
+    width: 54px;
+    overflow: hidden;
+    display: block;
+    float: right;
+    transition: width 0.5s ease;
+    /* Transition for position change */
+
+    background: #f8d49e;
+    background: linear-gradient(to left, #f8d49e 50%, #636363 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+
+}
+
+.toprighticons span {
+    margin-left: 10px;
+    white-space: pre-wrap;    
+    writing-mode: vertical-lr;
+    text-orientation: upright; 
+}
+
+.toprighticons:hover {
+  background-position: left;
+  color: #fff;
+}
+
+.custom-modal-width {
+  max-width: 700px;
+}
+
+.custom-modal-style {
+  border-radius: 20px;
+  padding: 20px;
+  background: #000;
+  border: 2px solid #dee2e6;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+}
+
+.custom-modal-style .modal-content {
+    background: #272727;
+    color: #fff;
+}
+
+.custom-modal-style h1,.custom-modal-style h2,.custom-modal-style h3,.custom-modal-style h4,.custom-modal-style h5,.custom-modal-style h6 {
+    color: #FACE8D;
+}
+
+.custom-modal-style .btn-close {
+  --bs-btn-close-color: #fff !important;
+  --bs-btn-close-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e") !important;
+}
+
+.custom-modal-style .modal-header {
+  border-bottom: none;
+}
+
+.custom-modal-style .modal-footer {
+  border-top: none;
+  justify-content: center;
+}
+
+
+.modal .btn-close:hover {
+  opacity: 1;
+  background-size: 1.2rem;
+}
+
+
+.ministrylogo {
+    max-width: 60%;
+    height: 50px;
+}
+
+.custome-mergin {
+    margin-top: 80px;
+}
+
+.footer-logos-intro {
+    bottom: 30px;
+}
+
+.radio-group {
+    position: relative;
+    display: flex;
+    width: max-content;
+    font-family: "Century Gothic";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #081212;
+}
+
+.radio-box {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 100px;
+    height: 40px;
+    background: #ECECEC;
+    border-radius: 100px;
+    transition: all 0.3s ease;
+    z-index: 0;
+}
+
+.radio-label {
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    padding: 10px 10px;
+    min-width: 100px;
+    text-align: center;
+    user-select: none;
+}
+
+.radio-label input[type="radio"] {
+    display: none;
+}
+
+.radio-label.active {
+    color: #081212;
+}
+
+.Logo {
+    color: #FFF;
+    text-align: center;
+    font-family: "Century Gothic";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.devine-journy {
+    color: var(--text-primary, #FACE8D);
+    font-family: 'Cookie';
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90%;
+}
+
+.makkah-p {
+    color: var(--text-default, #FFF);
+    font-family: "Century Gothic";
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 156px;
+    margin-bottom: 32px !important;
+}
+
+.devine-journy-p {
+    color: #FFF;
+    text-align: center;
+    font-family: "Century Gothic";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 0px !important;
+}
+
+.Umrah-button {
+    color: var(--text-inverse, #081212);
+    font-family: "Century Gothic";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 100px;
+    background: #ECECEC;
+    border: #ECECEC;
+    text-decoration: none;
+}
+
+.hajj-button {
+    color: var(--text-inverse, #081212);
+    font-family: "Century Gothic";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 100px;
+    background: #FFF;
+    border: #FFF;
+    text-decoration: none;
+}
+
+.book-pakage {
+    color: var(--text-inverse, #081212);
+    font-family: "Century Gothic";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 100px;
+    background: #FFF;
+    border: #FFF;
+    text-decoration: none;
+}
+
+.find-flights-button:hover {
+    background-color: #111;
+}
+
+.best-deals-button {
+    display: flex;
+    padding: 14px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    color: #111;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0.2px;
+    border: #111;
+    background: #FFF;
+}
+
+.hajj-button:hover {
+    background-color: #111;
+    color: white;
+}
+
+.Umrah-button:hover {
+    background-color: #111;
+    color: white;
+}
+
+.book-pakage:hover {
+    background-color: #111;
+    color: white;
+}
+
+.buttons-background {
+    display: inline-flex;
+    justify-content: center;
+    height: 62px;
+    padding: 10px 8px 10px 10px;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #FFF;
+}
+
+@media (max-width: 1680px) {
+    .custome-mergin {
+        margin-top: 110px;
+    }
+
+    .devine-journy {
+        font-size: 70px;
+    }
+
+    .makkah-p {
+        font-size: 120px;
+        line-height: 140px;
+        margin-bottom: 32px !important;
+    }
+
+    .devine-journy-p {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1600px) and (max-height: 900px) {
+    .custome-mergin {
+        margin-top: 30px;
+    }
+
+    .devine-journy {
+        font-size: 60px;
+    }
+
+    .makkah-p {
+        font-size: 110px;
+        line-height: 140px;
+        margin-bottom: 32px !important;
+    }
+
+    .devine-journy-p {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1440px) and (max-height: 900px) {
+    .custome-mergin {
+        margin-top: 40px;
+    }
+
+    .devine-journy {
+        font-size: 60px;
+    }
+
+    .makkah-p {
+        font-size: 110px;
+        line-height: 140px;
+        margin-bottom: 32px !important;
+    }
+
+    .devine-journy-p {
+        font-size: 22px;
+    }
+}
+
+
+@media (max-width: 1400px) and (max-height: 1050px) {
+    .custome-mergin {
+        margin-top: 110px;
+    }
+
+    .devine-journy {
+        font-size: 60px;
+    }
+
+    .makkah-p {
+        font-size: 110px;
+        line-height: 140px;
+        margin-bottom: 32px !important;
+    }
+
+    .devine-journy-p {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .intrologo {
+        max-height: 70px;
+    }
+
+    .custome-mergin {
+        margin-top: 30px;
+    }
+
+    .devine-journy {
+        font-size: 45px;
+    }
+
+    .makkah-p {
+        font-size: 70px;
+        line-height: 70px;
+        margin-bottom: 25px !important;
+    }
+
+    .devine-journy-p {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 1280px) and (max-height: 1024px) {
+    .intrologo {
+        max-height: 90px !important;
+    }
+
+    .custome-mergin {
+        margin-top: 50px;
+    }
+
+    .devine-journy {
+        font-size: 60px;
+    }
+
+    .makkah-p {
+        font-size: 90px;
+        line-height: 100px;
+        margin-bottom: 25px !important;
+    }
+
+    .devine-journy-p {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1280px) and (max-height: 800px) {
+    .intrologo {
+        max-height: 70px;
+    }
+
+    .custome-mergin {
+        margin-top: 30px;
+    }
+
+    .devine-journy {
+        font-size: 45px;
+    }
+
+    .makkah-p {
+        font-size: 70px;
+        line-height: 70px;
+        margin-bottom: 25px !important;
+    }
+
+    .devine-journy-p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1280px) and (max-height: 600px) {
+    .intrologo {
+        max-height: 48px !important;
+    }
+
+    .custome-mergin {
+        margin-top: 10px;
+    }
+
+    .devine-journy {
+        font-size: 32px;
+    }
+
+    .makkah-p {
+        font-size: 42px;
+        line-height: 42px;
+        margin-bottom: 0px !important;
+    }
+
+    .devine-journy-p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1152px) {
+    .intrologo {
+        max-height: 50px;
+    }
+
+    .custome-mergin {
+        margin-top: 60px;
+    }
+
+    .devine-journy {
+        font-size: 70px;
+    }
+
+    .makkah-p {
+        font-size: 70px;
+        line-height: 90px;
+        margin-bottom: 22px !important;
+        line-height: normal;
+    }
+
+    .devine-journy-p {
+        font-size: 17px;
+        line-height: normal;
+    }
+}
+
+@media (max-width: 1024px) and (max-height: 600px) {
+    .intrologo {
+        max-height: 50px;
+    }
+
+    .custome-mergin {
+        margin-top: 60px;
+    }
+
+    .devine-journy {
+        font-size: 70px;
+    }
+
+    .makkah-p {
+        font-size: 70px;
+        line-height: 90px;
+        margin-bottom: 22px !important;
+        line-height: normal;
+    }
+
+    .devine-journy-p {
+        font-size: 17px;
+        line-height: normal;
+    }
+}
+
+@media (max-width: 1024px) and (max-height: 768px) {
+    .intrologo {
+        max-height: 70px !important;
+    }
+
+    .custome-mergin {
+        margin-top: 40px;
+    }
+
+    .devine-journy {
+        font-size: 52px;
+    }
+
+    .makkah-p {
+        font-size: 72px;
+        line-height: 72px;
+        margin-bottom: 25px !important;
+    }
+
+    .devine-journy-p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 992px) {
+    .intrologo {
+        max-height: 50px !important;
+    }
+
+    .custome-mergin {
+        margin-top: 10px;
+    }
+
+    .devine-journy {
+        font-size: 26px;
+    }
+
+    .makkah-p {
+        font-size: 42px;
+        line-height: 42px;
+        margin-bottom: 10px !important;
+    }
+
+    .devine-journy-p {
+        font-size: 13px;
+    }
+
+
+    .Umrah-button {
+        font-size: 14px;
+    }
+
+    .hajj-button {
+        font-size: 14px;
+    }
+
+    .book-pakage {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .intrologo {
+        max-height: 70px !important;
+    }
+
+    .custome-mergin {
+        margin-top: 120px;
+    }
+
+    .devine-journy {
+        font-size: 50px;
+    }
+
+    .makkah-p {
+        font-size: 70px;
+        line-height: 160%;
+        margin-bottom: 25px;
+    }
+
+    .devine-journy-p {
+        font-size: 18px;
+        line-height: 160%;
+    }
+
+    .Umrah-button {
+        font-size: 12px;
+    }
+
+    .hajj-button {
+        font-size: 12px;
+    }
+
+    .book-pakage {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 576px) {
+    .intrologo {
+        max-height: 48px !important;
+    }
+
+    .custome-mergin {
+        margin-top: 10px;
+    }
+
+    .devine-journy {
+        font-size: 32px;
+    }
+
+    .makkah-p {
+        font-size: 42px;
+        line-height: 42px;
+        margin-bottom: 0px !important;
+    }
+
+    .devine-journy-p {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 428px) {}

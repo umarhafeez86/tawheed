@@ -1,0 +1,7 @@
+#howitworks .accordion-item:first-of-type,.accordion-item:not(:first-child){
+    border: none;
+}
+
+#howitworks .accordion-button::after,.accordion-button:not(.collapsed)::after{
+    background-image: none;
+}

@@ -1,0 +1,345 @@
+/************** Left Panel CSS Start **************/
+.leftpanel-bg {
+    background: url(../images/packagedetails-bg.jpg) top center no-repeat;
+}
+
+.goback { 
+    border-bottom: solid var(--border-default, rgba(255, 255, 255, 0.10));
+}
+.goback a { 
+    color: #FFF;
+    font-family: "Century Gothic";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+    text-decoration: none;
+}
+
+.package_price_detail {
+    color: #FACE8D;
+    font-family: "Century Gothic";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+.package_price_detail span {
+    color: #FFF;
+    font-family: "Century Gothic";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+}
+.package_price_detail span.termsnote {
+    color: #FACE8D;
+    font-family: "Century Gothic";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.termsnote a {
+    color: #FACE8D;
+    font-family: "Century Gothic";
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal; 
+    text-decoration: none;
+}
+.btn_book_package {
+    display: flex;
+    padding: 20px 95px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 500px;
+    box-shadow: 0px 0px 8.6px 0px rgba(5, 5, 5, 0.30);
+
+    color: #FFF;
+    font-family: "Century Gothic";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    background: #272727;
+    background: linear-gradient(to left, #272727 50%, #f8d49e 50%) right;
+    background-size: 210%;
+    transition: .5s ease-out;
+}
+.btn_book_package:hover {
+    background-position: left;
+    color: #000;
+}
+.details_sub_heading {
+    color: #FACE8D;
+    font-family: "Cookie";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 64px */
+}
+
+.details_sub_text {
+    color: var(--text-default, #FFF);
+    font-family: "Century Gothic";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+.details_sub_text .boder {
+    border-bottom: solid 1px var(--border-default, rgba(255, 255, 255, 0.10));
+}
+.details_sub_text_info {
+    color: var(--text-muted, rgba(255, 255, 255, 0.80));
+    
+    font-family: "Century Gothic";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.hotel_info_details {
+    color: var(--text-default, #FFF);
+    font-family: "Century Gothic";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+.hotel_info_details .hotel_location {
+    color: var(--text-default, #FFF);
+    font-family: "Century Gothic";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+.hotel_info_details .hotel_name {
+    color: var(--text-default, #FFF);
+    font-family: "Century Gothic";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+}
+.hotel_info_details .hotel_name span {
+    color: var(--text-default, #FFF);
+    font-family: "Century Gothic";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+.hotel_info_details .hotel-infotext {
+    color: var(--text-default, #FFF);
+    font-family: "Century Gothic";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+.hotel_info_details .hotel-infotext p {
+    color: var(--text-default, #FFF) !important;
+    font-family: "Century Gothic" !important;
+    font-size: 20px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 160% !important;
+}
+
+.hotel-image img { border-radius: 30px; }
+.hotel-image .swiper-container .swiper-button-next.swiper-button-disabled { top: 45%;background: transparent; }
+.hotel-image .swiper-container .swiper-button-next { top: 45%;background: transparent; }
+.hotel-image .swiper-container .swiper-button-next:after { color:#fff; } 
+
+.hotel-image .swiper-container .swiper-button-prev.swiper-button-disabled { top: 45%;background: transparent; }
+.hotel-image .swiper-container .swiper-button-prev { top: 45%;background: transparent; }
+.hotel-image .swiper-container .swiper-button-prev:after { color:#fff; } 
+
+.swiper-container {
+      float: left;
+	  overflow: hidden;
+	  
+}
+.swiper-container .swiper-slide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.form-custon-inquiry .form-select {
+  display: inline-flex;
+  height: 60px;
+  padding: 16px 24px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.40);
+  color: var(--text-default, #FFF);
+  font-family: "Century Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  background-color: #272727;
+
+  appearance: none;              /* Hide default arrow */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-caret-down-fill' viewBox='0 0 16 16'%3E%3Cpath d='M7.247 11.14 2.451 5.658C1.885 5.064 2.324 4 3.204 4h9.592c.88 0 1.319 1.064.753 1.658l-4.796 5.482a1 1 0 0 1-1.506 0z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 16px;
+  padding-right: 2rem; /* space for the icon */
+
+
+}
+.form-custon-inquiry .form-select::placeholder {
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+.form-custon-inquiry .form-select::-ms-input-placeholder { /* Edge 12 -18 */
+  color: #fff;
+}
+
+/************** Left Panel CSS Emd **************/
+@media (max-width: 1920px) {
+  .leftpanel-bg {
+    background: url(../images/packagedetails-bg.jpg) top center no-repeat;
+  }
+}
+
+@media (min-width: 1921px) {
+  .leftpanel-bg {
+    background: url(../images/packagedetails-bg-xxl.jpg) top center no-repeat;
+  }
+}
+
+
+@media (max-width: 1440px) and (max-height: 900px) {
+    .page_heading {
+        font-size: 32px;
+    }
+    .page_sub_heading {
+        font-size: 32px;
+    }
+    .package_price_detail {
+        font-size: 32px;
+    }
+    .details_sub_heading {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 1280px) and (max-height: 1024px) {
+    .page_heading {
+        font-size: 28px;
+    }
+    .page_sub_heading {
+        font-size: 26px;
+    }
+    .package_price_detail {
+        font-size: 32px;
+    }
+    .details_sub_heading {
+        font-size: 40px;
+    }
+
+    .details_sub_text {
+        font-size: 16px;
+    }
+    .details_sub_text_info {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 1152px) {
+    .page_heading {
+        font-size: 24px;
+    }
+    .page_sub_heading {
+        font-size: 20px;
+    }
+    .package_price_detail {
+        font-size: 26px;
+    }
+    .details_sub_heading {
+        font-size: 30px;
+    }
+    .details_sub_text {
+        font-size: 13px;
+    }
+    .details_sub_text_info {
+        font-size: 11px;
+    }
+    .btn_book_package {
+        padding: 10px 65px;
+        font-size: 16px;
+    }
+    .hotel_info_details .hotel_location {
+        font-size: 20px;
+    }
+    .hotel_info_details .hotel_name {
+        font-size: 16px;
+    }
+    .hotel_info_details .hotel_name span {
+        font-size: 16px;
+    }
+    .hotel_info_details .hotel-infotext {
+        font-size: 16px;
+    }
+    .btn-form-custon-inquiry-submit {
+        padding: 10px 65px;
+        font-size: 16px;
+    }
+} 
+
+@media screen and (max-width: 1024px) {
+    .page_heading {
+        font-size: 20px;
+    }
+    .page_sub_heading {
+        font-size: 20px;
+    }
+    .package_price_detail {
+        font-size: 20px;
+    }
+    .details_sub_heading {
+        font-size: 30px;
+    }
+    .details_sub_text {
+        font-size: 12px;
+    }
+    .details_sub_text_info {
+        font-size: 12px;
+    }
+
+    .btn_book_package {
+        padding: 10px 65px;
+        font-size: 16px;
+    }
+    .hotel_info_details .hotel_location {
+        font-size: 20px;
+    }
+    .hotel_info_details .hotel_name {
+        font-size: 16px;
+    }
+    .hotel_info_details .hotel_name span {
+        font-size: 16px;
+    }
+    .hotel_info_details .hotel-infotext {
+        font-size: 16px;
+    }
+    .btn-form-custon-inquiry-submit {
+        padding: 10px 65px;
+        font-size: 16px;
+    }
+}

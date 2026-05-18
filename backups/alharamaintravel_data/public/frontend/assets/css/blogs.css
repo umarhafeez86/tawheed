@@ -1,0 +1,128 @@
+.package_name {
+    text-decoration: none;
+}
+
+
+.package-grid.blog-item .hover-button {
+  position: absolute;
+  top: -15px;
+  right: 60px;
+  border: none;
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transform: translateY(-10px);
+  border-radius: 6px;
+  background: #face8d;
+  display: flex;
+  padding: 8px 12px;
+  align-items: flex-start;
+  gap: 10px;
+  color: var(--text-inverse, #081212);
+  /* text/small */
+  font-family: "Century Gothic";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 19.6px */
+}
+
+.package-grid.blog-item:hover .hover-button {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+.post-date {
+  color: var(--text-muted, rgba(255, 255, 255, 0.80));
+  /* text/default */
+  font-family: "Century Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  /* 25.6px */
+}
+.post-title {
+  color: var(--text-default, #FFF);
+  font-family: "Century Gothic";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  /* 40px */
+}
+.post-author {
+  color: var(--text-muted, rgba(255, 255, 255, 0.80));
+  font-family: "Century Gothic";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.post-author-span {
+  color: #FACE8D;
+  font-family: "Century Gothic";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+ 
+
+
+.page_sub_heading_text a {
+  color: #FACE8D;
+  text-decoration: underline;
+}
+.page_sub_heading_text .a:hover {
+  color: #fff;
+}
+
+
+.page_content_text {
+  color: var(--text-muted, rgba(255, 255, 255, 0.80));
+  font-family: "Century Gothic";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.page_content_text p {
+  color: var(--text-muted, rgba(255, 255, 255, 0.80));
+  font-family: "Century Gothic";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.page_content_text a {
+  color: #FACE8D;
+  font-family: "Century Gothic";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  text-decoration: underline;
+}
+.page_content_text .a:hover {
+  color: #fff;
+}
+.multiline-ellipsis {
+   display: -webkit-box;
+  -webkit-line-clamp: 5; /* number of lines to show */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .post-date { 
+    font-size: 12px;
+  }
+  .post-author {
+    font-size: 14px;
+  }
+  .post-author-span {
+    font-size: 14px;
+  }
+} 
